@@ -3,10 +3,8 @@ import Navigation from "@/components/Navigation";
 import palmsSunset from "@/assets/palms-sunset.jpg";
 import turtlesBeach from "@/assets/turtles-beach.jpg";
 import yogaBeach from "@/assets/yoga-beach.jpg";
-
 const Home = () => {
-  return (
-    <div className="min-h-screen bg-background text-foreground">
+  return <div className="min-h-screen bg-background text-foreground">
       <Navigation />
       
       {/* Hero Section */}
@@ -16,13 +14,9 @@ const Home = () => {
             <Leaf className="w-12 h-12 text-primary mb-6 mx-auto opacity-70" strokeWidth={1.5} />
           </div>
           
-          <h1 className="text-5xl md:text-7xl font-light tracking-tight text-foreground">
-            Wellness & Balance
-          </h1>
+          <h1 className="text-5xl md:text-7xl font-light tracking-tight text-foreground">Inner Compass</h1>
           
-          <p className="text-xl md:text-2xl text-muted-foreground font-light leading-relaxed">
-            Exploring the intersection of ancient wisdom and modern wellness through yoga, meditation, and mindful living.
-          </p>
+          <p className="text-xl md:text-2xl text-muted-foreground font-light leading-relaxed">With roots in social science and HCI research, I’m building tools and spaces that help people connect more deeply — with themselves and each other.</p>
         </div>
       </section>
 
@@ -36,7 +30,7 @@ const Home = () => {
         <div className="max-w-3xl mx-auto grid md:grid-cols-3 gap-12">
           <div className="text-center space-y-4">
             <Leaf className="w-8 h-8 text-primary mx-auto opacity-60" strokeWidth={1.5} />
-            <h3 className="text-lg font-light text-foreground">Yoga</h3>
+            <h3 className="text-lg font-light text-foreground">Outdoor Yoga Events</h3>
             <p className="text-sm text-muted-foreground font-light leading-relaxed">
               Movement as meditation, connecting body and breath in harmony.
             </p>
@@ -72,11 +66,7 @@ const Home = () => {
               Everyone is a creator.
             </p>
             
-            <p className="text-center">
-              When you align with yourself and tap into your intuition, something profound happens. 
-              You become grounded. You become rooted. From this place of authentic connection, 
-              you naturally create and provide value to the world.
-            </p>
+            <p className="text-center">When you align with yourself and tap into your intuition, something profound happens. You become grounded and aligned. From this place of authentic connection, you naturally create and provide value to the world. You act with abundance mindset, not scarcity. Play a limitless game, not a competitive game.</p>
             
             <p className="text-center">
               I am working on projects that help others find peace and alignment—creating the space 
@@ -90,11 +80,7 @@ const Home = () => {
       {/* Natural Healing Background Section */}
       <section className="relative w-full py-32 md:py-48 overflow-hidden">
         <div className="absolute inset-0">
-          <img 
-            src={palmsSunset} 
-            alt="Palm trees silhouetted against peaceful sunset sky" 
-            className="w-full h-full object-cover"
-          />
+          <img src={palmsSunset} alt="Palm trees silhouetted against peaceful sunset sky" className="w-full h-full object-cover" />
           <div className="absolute inset-0 bg-background/40 backdrop-blur-[2px]"></div>
         </div>
         
@@ -115,20 +101,12 @@ const Home = () => {
         <div className="max-w-4xl mx-auto">
           <div className="grid md:grid-cols-2 gap-6">
             <div className="group relative overflow-hidden rounded-lg aspect-[4/5]">
-              <img 
-                src={turtlesBeach} 
-                alt="Sea turtles resting on coastal rocks - natural tranquility" 
-                className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
-              />
+              <img src={turtlesBeach} alt="Sea turtles resting on coastal rocks - natural tranquility" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
               <div className="absolute inset-0 bg-gradient-to-t from-background/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
             </div>
             
             <div className="group relative overflow-hidden rounded-lg aspect-[4/5]">
-              <img 
-                src={yogaBeach} 
-                alt="Yoga practice on the beach at sunset - mindful movement" 
-                className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
-              />
+              <img src={yogaBeach} alt="Yoga practice on the beach at sunset - mindful movement" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
               <div className="absolute inset-0 bg-gradient-to-t from-background/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
             </div>
           </div>
@@ -143,8 +121,6 @@ const Home = () => {
           </p>
         </div>
       </footer>
-    </div>
-  );
+    </div>;
 };
-
 export default Home;
