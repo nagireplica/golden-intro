@@ -60,6 +60,33 @@ const Home = () => {
         </div>
       </section>
 
+      {/* Philosophy Section */}
+      <section className="container mx-auto px-6 py-20 md:py-32">
+        <div className="max-w-2xl mx-auto space-y-8">
+          <h2 className="text-3xl md:text-4xl font-light text-center text-foreground">
+            My Philosophy
+          </h2>
+          
+          <div className="space-y-6 text-muted-foreground font-light leading-relaxed">
+            <p className="text-center text-lg">
+              Everyone is a creator.
+            </p>
+            
+            <p className="text-center">
+              When you align with yourself and tap into your intuition, something profound happens. 
+              You become grounded. You become rooted. From this place of authentic connection, 
+              you naturally create and provide value to the world.
+            </p>
+            
+            <p className="text-center">
+              I am working on projects that help others find peace and alignment—creating the space 
+              and tools for people to discover their own inner wisdom, so they can share their unique 
+              gifts with the world.
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* Natural Healing Background Section */}
       <section className="relative w-full py-32 md:py-48 overflow-hidden">
         <div className="absolute inset-0">
@@ -104,33 +131,6 @@ const Home = () => {
               />
               <div className="absolute inset-0 bg-gradient-to-t from-background/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
             </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Philosophy Section */}
-      <section className="container mx-auto px-6 py-20 md:py-32">
-        <div className="max-w-2xl mx-auto space-y-8">
-          <h2 className="text-3xl md:text-4xl font-light text-center text-foreground">
-            My Philosophy
-          </h2>
-          
-          <div className="space-y-6 text-muted-foreground font-light leading-relaxed">
-            <p className="text-center text-lg">
-              Everyone is a creator.
-            </p>
-            
-            <p className="text-center">
-              When you align with yourself and tap into your intuition, something profound happens. 
-              You become grounded. You become rooted. From this place of authentic connection, 
-              you naturally create and provide value to the world.
-            </p>
-            
-            <p className="text-center">
-              I am working on projects that help others find peace and alignment—creating the space 
-              and tools for people to discover their own inner wisdom, so they can share their unique 
-              gifts with the world.
-            </p>
           </div>
         </div>
       </section>
