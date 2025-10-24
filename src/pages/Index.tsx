@@ -284,9 +284,9 @@ const Index = () => {
             </p>
             
             <p className="text-center">
-              My work is about helping others find this alignment—creating the space and tools 
-              for people to discover their own inner wisdom, so they can share their unique gifts 
-              with the world.
+              I am working on projects that help others find peace and alignment—creating the space 
+              and tools for people to discover their own inner wisdom, so they can share their unique 
+              gifts with the world.
             </p>
           </div>
         </div>
