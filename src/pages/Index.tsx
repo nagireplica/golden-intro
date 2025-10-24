@@ -1,4 +1,7 @@
 import { Leaf, Heart, Sparkles } from "lucide-react";
+import turtlesBeach from "@/assets/turtles-beach.jpg";
+import palmsSunset from "@/assets/palms-sunset.jpg";
+import yogaBeach from "@/assets/yoga-beach.jpg";
 
 const Index = () => {
   return (
@@ -82,6 +85,49 @@ const Index = () => {
             <p className="text-sm text-muted-foreground font-light leading-relaxed">
               Developing thoughtful tools to support wellness journeys.
             </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Divider */}
+      <div className="container mx-auto px-6">
+        <div className="max-w-3xl mx-auto h-px bg-border opacity-50"></div>
+      </div>
+
+      {/* Natural Healing Gallery */}
+      <section className="container mx-auto px-6 py-20 md:py-32">
+        <div className="max-w-4xl mx-auto space-y-8">
+          <h2 className="text-3xl md:text-4xl font-light text-center text-foreground mb-12">
+            Natural Healing
+          </h2>
+          
+          <div className="grid md:grid-cols-3 gap-6">
+            <div className="group relative overflow-hidden rounded-lg aspect-[3/4]">
+              <img 
+                src={turtlesBeach} 
+                alt="Sea turtles resting on coastal rocks - natural tranquility" 
+                className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-background/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+            </div>
+            
+            <div className="group relative overflow-hidden rounded-lg aspect-[3/4]">
+              <img 
+                src={yogaBeach} 
+                alt="Yoga practice on the beach at sunset - mindful movement" 
+                className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-background/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+            </div>
+            
+            <div className="group relative overflow-hidden rounded-lg aspect-[3/4]">
+              <img 
+                src={palmsSunset} 
+                alt="Palm trees silhouetted against peaceful sunset sky" 
+                className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-background/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+            </div>
           </div>
         </div>
       </section>
