@@ -28,28 +28,31 @@ const Index = () => {
         <div className="max-w-3xl mx-auto h-px bg-border opacity-50"></div>
       </div>
 
-      {/* Background Section */}
+      {/* About Me Section */}
       <section className="container mx-auto px-6 py-20 md:py-32">
         <div className="max-w-2xl mx-auto space-y-8">
           <h2 className="text-3xl md:text-4xl font-light text-center text-foreground">
-            Where Tech Meets Heart
+            🌸 About Me
           </h2>
           
           <div className="space-y-6 text-muted-foreground font-light leading-relaxed">
             <p className="text-center">
-              As a UX researcher, I've worked on products ranging from Digital Earth databases 
-              to B2B Webex calling tools to Roku Sports streaming interfaces. Through it all, 
-              one thing has remained constant: <span className="text-foreground">authentic connection</span>.
+              Hi, I'm Dingyu — a certified yoga teacher, creative entrepreneur, and lifelong explorer 
+              of consciousness and human potential. My work sits at the intersection of science and 
+              spirituality — blending ancient wisdom with modern research to help people feel more 
+              connected, balanced, and alive.
             </p>
             
             <p className="text-center">
-              I believe technology should bring people together, not separate them. 
-              It should create value and positive impact—not manipulate users with algorithms 
-              or foster addiction. My work is guided by a simple question:
+              I currently host yoga and mindfulness events, create content that inspires self-awareness, 
+              and collaborate with visionaries — including a Stanford medical professor on stem cell and 
+              functional medicine projects — to bring healing innovations to the world.
             </p>
             
-            <p className="text-center text-lg text-foreground italic">
-              "Does this connect people, or does it divide them?"
+            <p className="text-center">
+              At my core, I value authenticity, curiosity, compassion, and inner growth. Whether through 
+              yoga, writing, or conscious entrepreneurship, my purpose is to help others remember their 
+              wholeness and live in alignment with their highest truth.
             </p>
           </div>
         </div>
