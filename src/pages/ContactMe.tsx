@@ -28,10 +28,10 @@ const ContactMe = () => {
                 <div>
                   <h3 className="text-lg font-light text-foreground mb-1">Email</h3>
                   <a 
-                    href="mailto:hello@example.com" 
+                    href="mailto:dingyuhu01@gmail.com" 
                     className="text-muted-foreground hover:text-foreground transition-colors font-light"
                   >
-                    hello@example.com
+                    dingyuhu01@gmail.com
                   </a>
                 </div>
               </div>
