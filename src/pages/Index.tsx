@@ -25,6 +25,38 @@ const Index = () => {
         <div className="max-w-3xl mx-auto h-px bg-border opacity-50"></div>
       </div>
 
+      {/* Background Section */}
+      <section className="container mx-auto px-6 py-20 md:py-32">
+        <div className="max-w-2xl mx-auto space-y-8">
+          <h2 className="text-3xl md:text-4xl font-light text-center text-foreground">
+            Where Tech Meets Heart
+          </h2>
+          
+          <div className="space-y-6 text-muted-foreground font-light leading-relaxed">
+            <p className="text-center">
+              As a UX researcher, I've worked on products ranging from Digital Earth databases 
+              to B2B Webex calling tools to Roku Sports streaming interfaces. Through it all, 
+              one thing has remained constant: <span className="text-foreground">authentic connection</span>.
+            </p>
+            
+            <p className="text-center">
+              I believe technology should bring people together, not separate them. 
+              It should create value and positive impact—not manipulate users with algorithms 
+              or foster addiction. My work is guided by a simple question:
+            </p>
+            
+            <p className="text-center text-lg text-foreground italic">
+              "Does this connect people, or does it divide them?"
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Divider */}
+      <div className="container mx-auto px-6">
+        <div className="max-w-3xl mx-auto h-px bg-border opacity-50"></div>
+      </div>
+
       {/* Focus Areas */}
       <section className="container mx-auto px-6 py-20 md:py-32">
         <div className="max-w-3xl mx-auto grid md:grid-cols-3 gap-12">
