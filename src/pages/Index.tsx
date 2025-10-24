@@ -89,20 +89,34 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Divider */}
-      <div className="container mx-auto px-6">
-        <div className="max-w-3xl mx-auto h-px bg-border opacity-50"></div>
-      </div>
+      {/* Natural Healing Background Section */}
+      <section className="relative w-full py-32 md:py-48 overflow-hidden">
+        <div className="absolute inset-0">
+          <img 
+            src={palmsSunset} 
+            alt="Palm trees silhouetted against peaceful sunset sky" 
+            className="w-full h-full object-cover"
+          />
+          <div className="absolute inset-0 bg-background/40 backdrop-blur-[2px]"></div>
+        </div>
+        
+        <div className="relative container mx-auto px-6">
+          <div className="max-w-2xl mx-auto text-center space-y-6">
+            <h2 className="text-4xl md:text-5xl font-light text-white drop-shadow-lg">
+              Natural Healing
+            </h2>
+            <p className="text-lg md:text-xl text-white/90 font-light leading-relaxed drop-shadow-md">
+              Finding peace in nature's rhythm, where the earth meets the sea and ancient wisdom flows through every moment.
+            </p>
+          </div>
+        </div>
+      </section>
 
       {/* Natural Healing Gallery */}
       <section className="container mx-auto px-6 py-20 md:py-32">
-        <div className="max-w-4xl mx-auto space-y-8">
-          <h2 className="text-3xl md:text-4xl font-light text-center text-foreground mb-12">
-            Natural Healing
-          </h2>
-          
-          <div className="grid md:grid-cols-3 gap-6">
-            <div className="group relative overflow-hidden rounded-lg aspect-[3/4]">
+        <div className="max-w-4xl mx-auto">
+          <div className="grid md:grid-cols-2 gap-6">
+            <div className="group relative overflow-hidden rounded-lg aspect-[4/5]">
               <img 
                 src={turtlesBeach} 
                 alt="Sea turtles resting on coastal rocks - natural tranquility" 
@@ -111,19 +125,10 @@ const Index = () => {
               <div className="absolute inset-0 bg-gradient-to-t from-background/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
             </div>
             
-            <div className="group relative overflow-hidden rounded-lg aspect-[3/4]">
+            <div className="group relative overflow-hidden rounded-lg aspect-[4/5]">
               <img 
                 src={yogaBeach} 
                 alt="Yoga practice on the beach at sunset - mindful movement" 
-                className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-background/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
-            </div>
-            
-            <div className="group relative overflow-hidden rounded-lg aspect-[3/4]">
-              <img 
-                src={palmsSunset} 
-                alt="Palm trees silhouetted against peaceful sunset sky" 
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-background/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
