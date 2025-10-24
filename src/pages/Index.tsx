@@ -2,6 +2,7 @@ import { Leaf, Heart, Sparkles } from "lucide-react";
 import turtlesBeach from "@/assets/turtles-beach.jpg";
 import palmsSunset from "@/assets/palms-sunset.jpg";
 import yogaBeach from "@/assets/yoga-beach.jpg";
+import yogaBeHereNow from "@/assets/yoga-be-here-now.jpg";
 
 const Index = () => {
   return (
@@ -67,6 +68,13 @@ const Index = () => {
       <section className="container mx-auto px-6 py-20 md:py-32">
         <div className="max-w-3xl mx-auto grid md:grid-cols-3 gap-12">
           <div className="text-center space-y-4">
+            <div className="relative w-full aspect-square rounded-lg overflow-hidden mb-4">
+              <img 
+                src={yogaBeHereNow} 
+                alt="Yoga practice - Be Here Now - mindful movement and presence" 
+                className="w-full h-full object-cover"
+              />
+            </div>
             <Leaf className="w-8 h-8 text-primary mx-auto opacity-60" strokeWidth={1.5} />
             <h3 className="text-lg font-light text-foreground">Yoga</h3>
             <p className="text-sm text-muted-foreground font-light leading-relaxed">
