@@ -93,19 +93,24 @@ const Index = () => {
       <section className="container mx-auto px-6 py-20 md:py-32">
         <div className="max-w-2xl mx-auto space-y-8">
           <h2 className="text-3xl md:text-4xl font-light text-center text-foreground">
-            A Simple Philosophy
+            My Philosophy
           </h2>
           
           <div className="space-y-6 text-muted-foreground font-light leading-relaxed">
-            <p className="text-center">
-              True wellness emerges from simplicity. In the quiet space between breaths, 
-              we find clarity. Through mindful movement, we discover strength. 
-              In stillness, we connect with ourselves.
+            <p className="text-center text-lg">
+              Everyone is a creator.
             </p>
             
             <p className="text-center">
-              My work is dedicated to creating tools and practices that honor this simplicity—
-              helping others find their own path to balance, presence, and peace.
+              When you align with yourself and tap into your intuition, something profound happens. 
+              You become grounded. You become rooted. From this place of authentic connection, 
+              you naturally create and provide value to the world.
+            </p>
+            
+            <p className="text-center">
+              My work is about helping others find this alignment—creating the space and tools 
+              for people to discover their own inner wisdom, so they can share their unique gifts 
+              with the world.
             </p>
           </div>
         </div>
