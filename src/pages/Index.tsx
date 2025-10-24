@@ -59,6 +59,36 @@ const Index = () => {
         <div className="max-w-3xl mx-auto h-px bg-border opacity-50"></div>
       </div>
 
+      {/* Current Work Section */}
+      <section className="container mx-auto px-6 py-20 md:py-32">
+        <div className="max-w-2xl mx-auto space-y-8">
+          <h2 className="text-3xl md:text-4xl font-light text-center text-foreground">
+            Current Work
+          </h2>
+          
+          <div className="bg-card border border-border rounded-lg p-8 md:p-12 space-y-4">
+            <div className="flex items-start gap-4">
+              <div className="w-1 h-16 bg-primary opacity-40 rounded-full"></div>
+              <div className="space-y-3">
+                <h3 className="text-xl font-light text-foreground">
+                  Stanford Medical Collaboration
+                </h3>
+                <p className="text-muted-foreground font-light leading-relaxed">
+                  Partnering with a Stanford medical professor to develop and monetize 
+                  innovative assessment services and wellness products, bridging academic 
+                  research with accessible health solutions.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Divider */}
+      <div className="container mx-auto px-6">
+        <div className="max-w-3xl mx-auto h-px bg-border opacity-50"></div>
+      </div>
+
       {/* Philosophy Section */}
       <section className="container mx-auto px-6 py-20 md:py-32">
         <div className="max-w-2xl mx-auto space-y-8">
