@@ -92,8 +92,7 @@ const Index = () => {
                   </h3>
                   <p className="text-muted-foreground font-light leading-relaxed">
                     Creating a wellness ecosystem that honors simplicity—curating products like 
-                    crystals, incense, and mindful tools while teaching yoga and meditation. 
-                    Working 30-40 hours a week with intention, not obligation.
+                    crystals, incense, and mindful tools while teaching yoga and meditation.
                   </p>
                 </div>
               </div>
