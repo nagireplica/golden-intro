@@ -187,51 +187,65 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Vision Section */}
+      {/* Core Values Section */}
       <section className="container mx-auto px-6 py-20 md:py-32 bg-secondary/30">
         <div className="max-w-2xl mx-auto space-y-12">
           <h2 className="text-3xl md:text-4xl font-light text-center text-foreground">
-            Vision & Aspirations
+            ✨ Core Values
           </h2>
           
           <div className="grid gap-8">
             <div className="space-y-3">
               <h3 className="text-lg font-light text-foreground flex items-center gap-2">
-                <span className="text-primary">∞</span> Global Explorer
+                <span className="text-primary">∞</span> Authenticity
               </h3>
               <p className="text-muted-foreground font-light leading-relaxed pl-6">
-                Traveling to 100 countries, documenting human stories through photography and writing, 
-                learning cultures with the curiosity of an anthropologist and the heart of a storyteller.
+                Living and expressing from a place of truth.
               </p>
             </div>
 
             <div className="space-y-3">
               <h3 className="text-lg font-light text-foreground flex items-center gap-2">
-                <span className="text-primary">∞</span> Legacy Builder
+                <span className="text-primary">∞</span> Presence
               </h3>
               <p className="text-muted-foreground font-light leading-relaxed pl-6">
-                Building a free elementary school in Asia, creating access to education where it matters most. 
-                Giving back is not a side project—it is woven into the fabric of my life's work.
+                Meeting each moment with awareness and compassion.
               </p>
             </div>
 
             <div className="space-y-3">
               <h3 className="text-lg font-light text-foreground flex items-center gap-2">
-                <span className="text-primary">∞</span> Freedom Seeker
+                <span className="text-primary">∞</span> Connection
               </h3>
               <p className="text-muted-foreground font-light leading-relaxed pl-6">
-                Living without geographical limitations, supporting family abundantly, and achieving 
-                financial independence—not to retire, but to choose how I show up in the world.
+                Nurturing genuine bonds between self, others, and the universe.
               </p>
             </div>
 
             <div className="space-y-3">
               <h3 className="text-lg font-light text-foreground flex items-center gap-2">
-                <span className="text-primary">∞</span> Intuitive Leader
+                <span className="text-primary">∞</span> Growth
               </h3>
               <p className="text-muted-foreground font-light leading-relaxed pl-6">
-                Following synchronicity over strategy, trusting guidance over control. 
-                Beginning each day with meditation and gratitude, ending with reflection and stillness.
+                Embracing life as a spiritual and creative unfolding.
+              </p>
+            </div>
+
+            <div className="space-y-3">
+              <h3 className="text-lg font-light text-foreground flex items-center gap-2">
+                <span className="text-primary">∞</span> Simplicity
+              </h3>
+              <p className="text-muted-foreground font-light leading-relaxed pl-6">
+                Finding beauty in stillness and balance in everyday life.
+              </p>
+            </div>
+
+            <div className="space-y-3">
+              <h3 className="text-lg font-light text-foreground flex items-center gap-2">
+                <span className="text-primary">∞</span> Service
+              </h3>
+              <p className="text-muted-foreground font-light leading-relaxed pl-6">
+                Offering my work as a way to uplift and bring more light into the world.
               </p>
             </div>
           </div>
