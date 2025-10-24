@@ -16,7 +16,7 @@ const Home = () => {
           
           <h1 className="text-5xl md:text-7xl font-light tracking-tight text-foreground">Inner Compass</h1>
           
-          <p className="text-xl md:text-2xl text-muted-foreground font-light leading-relaxed">I am building community and tools that empower people to connect more deeply, with their themseles and their higher self.</p>
+          <p className="text-xl md:text-2xl text-muted-foreground font-light leading-relaxed">Coming from a social science and HCI research background. I am creating tools  and community to empower grounded and auentic face to face connection.</p>
         </div>
       </section>
 
