@@ -51,7 +51,7 @@ const Home = () => {
 
       {/* Divider */}
       <div className="container mx-auto px-6 py-16">
-        <div className="max-w-4xl mx-auto h-px bg-border opacity-20"></div>
+        <div className="max-w-4xl mx-auto h-px bg-border opacity-40"></div>
       </div>
 
       {/* My Philosophy */}
@@ -73,7 +73,7 @@ const Home = () => {
 
       {/* Divider */}
       <div className="container mx-auto px-6 py-16">
-        <div className="max-w-4xl mx-auto h-px bg-border opacity-20"></div>
+        <div className="max-w-4xl mx-auto h-px bg-border opacity-40"></div>
       </div>
 
       {/* Current Journey & Focus */}
@@ -124,7 +124,7 @@ const Home = () => {
 
       {/* Divider */}
       <div className="container mx-auto px-6 py-16">
-        <div className="max-w-4xl mx-auto h-px bg-border opacity-20"></div>
+        <div className="max-w-4xl mx-auto h-px bg-border opacity-40"></div>
       </div>
 
       {/* Natural Healing Background Section */}
