@@ -40,7 +40,7 @@ const Home = () => {
               </p>
 
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <a href="/contact" className="inline-flex items-center justify-center px-8 py-4 bg-accent text-accent-foreground font-medium rounded-lg hover:bg-accent/90 transition-all duration-300 shadow-lg hover:shadow-xl">Let's connect</a>
+                <a href="/contact" className="inline-flex items-center justify-center px-8 py-4 bg-accent text-accent-foreground font-medium rounded-lg hover:bg-accent/90 transition-all duration-300 shadow-lg hover:shadow-xl">Let's Connect</a>
                 <a href="/about" className="inline-flex items-center justify-center px-8 py-4 bg-white/20 text-white font-medium rounded-lg hover:bg-white/30 backdrop-blur-sm transition-all duration-300 border border-white/30">
                   Learn More
                 </a>
