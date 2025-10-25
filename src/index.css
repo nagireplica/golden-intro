@@ -38,6 +38,11 @@ All colors MUST be HSL.
 
     --radius: 0.5rem;
 
+    /* Typography hierarchy */
+    --heading-spacing: 0.5rem;
+    --section-spacing: 5rem;
+    --content-spacing: 1.5rem;
+
     --sidebar-background: 0 0% 98%;
 
     --sidebar-foreground: 240 5.3% 26.1%;

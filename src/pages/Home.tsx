@@ -11,7 +11,7 @@ const Home = () => {
       <Navigation />
       
       {/* Hero Section with Tilt and Parallax */}
-      <section className="relative w-full py-20 md:py-32 overflow-hidden">
+      <section className="relative w-full py-24 md:py-40 overflow-hidden">
         <Tilt
           tiltMaxAngleX={5}
           tiltMaxAngleY={5}
@@ -51,12 +51,12 @@ const Home = () => {
                 <Leaf className="w-12 h-12 text-white mb-6 mx-auto opacity-80 drop-shadow-2xl" strokeWidth={1.5} />
               </div>
 
-              <h1 className="text-5xl md:text-7xl font-light tracking-tight text-white drop-shadow-2xl transition-all duration-500 hover:scale-105">
+              <h1 className="text-6xl md:text-8xl font-extralight tracking-tight text-white drop-shadow-2xl transition-all duration-500 hover:scale-105 mb-8">
                 Inner Compass
               </h1>
 
-              <p className="text-xl md:text-2xl text-white/95 font-light leading-relaxed drop-shadow-lg backdrop-blur-sm bg-background/10 rounded-2xl p-6 transition-all duration-500 hover:bg-background/20">
-                With a background in social science and HCI research, I create mindful experiences—through yoga, wellness tools, and community—to help people reconnect with their bodies and each other.
+              <p className="text-lg md:text-xl text-white/95 font-light leading-relaxed drop-shadow-lg backdrop-blur-sm bg-background/10 rounded-2xl p-8 transition-all duration-500 hover:bg-background/20 max-w-2xl">
+                I am building community and tools that empower people to connect more deeply, with their themseles and their higher self.
               </p>
             </div>
           </div>
@@ -69,43 +69,43 @@ const Home = () => {
       </div>
 
       {/* Current Journey & Focus */}
-      <section className="container mx-auto px-6 py-20 md:py-32">
-        <div className="max-w-4xl mx-auto space-y-12">
-          <h2 className="text-3xl md:text-4xl font-light text-center text-foreground">
+      <section className="container mx-auto px-6 py-24 md:py-40">
+        <div className="max-w-4xl mx-auto space-y-16">
+          <h2 className="text-4xl md:text-5xl font-light text-center text-foreground mb-16 tracking-tight">
             Current Journey & Focus
           </h2>
 
-          <div className="space-y-12">
-            <div className="space-y-4">
-              <div className="flex items-center justify-center gap-3">
-                <Leaf className="w-8 h-8 text-primary opacity-60" strokeWidth={1.5} />
-                <h3 className="text-2xl font-light text-foreground">Outdoor Yoga & Meditation</h3>
+          <div className="space-y-20">
+            <div className="space-y-6">
+              <div className="flex items-center justify-center gap-4 mb-4">
+                <Leaf className="w-10 h-10 text-primary opacity-70" strokeWidth={1.5} />
+                <h3 className="text-3xl md:text-4xl font-normal text-foreground">Outdoor Yoga & Meditation</h3>
               </div>
-              <p className="text-center text-muted-foreground font-light leading-relaxed max-w-3xl mx-auto">
+              <p className="text-center text-muted-foreground text-lg font-light leading-relaxed max-w-2xl mx-auto">
                 Nature holds its own healing energy.
                 Through outdoor yoga and meditation, I guide people to deepen the connection between mind and body — to breathe with awareness, feel grounded, and rediscover inner peace through presence.
               </p>
             </div>
 
-            <div className="space-y-4">
-              <div className="flex items-center justify-center gap-3">
-                <Heart className="w-8 h-8 text-primary opacity-60" strokeWidth={1.5} />
-                <h3 className="text-2xl font-light text-foreground">Health & Wellness Products</h3>
+            <div className="space-y-6">
+              <div className="flex items-center justify-center gap-4 mb-4">
+                <Heart className="w-10 h-10 text-primary opacity-70" strokeWidth={1.5} />
+                <h3 className="text-3xl md:text-4xl font-normal text-foreground">Health & Wellness Products</h3>
               </div>
-              <p className="text-center text-muted-foreground font-light leading-relaxed max-w-3xl mx-auto">
+              <p className="text-center text-muted-foreground text-lg font-light leading-relaxed max-w-2xl mx-auto">
                 I'm creating a product inspired by mindfulness — crafted to nurture holistic well-being, energy healing, and a sense of balance and harmony in everyday life.
               </p>
-              <p className="text-center text-muted-foreground font-light italic">
+              <p className="text-center text-muted-foreground text-base font-light italic mt-3">
                 Stay tuned :)
               </p>
             </div>
 
-            <div className="space-y-4">
-              <div className="flex items-center justify-center gap-3">
-                <Sparkles className="w-8 h-8 text-primary opacity-60" strokeWidth={1.5} />
-                <h3 className="text-2xl font-light text-foreground">Content & Community</h3>
+            <div className="space-y-6">
+              <div className="flex items-center justify-center gap-4 mb-4">
+                <Sparkles className="w-10 h-10 text-primary opacity-70" strokeWidth={1.5} />
+                <h3 className="text-3xl md:text-4xl font-normal text-foreground">Content & Community</h3>
               </div>
-              <p className="text-center text-muted-foreground font-light leading-relaxed max-w-3xl mx-auto">
+              <p className="text-center text-muted-foreground text-lg font-light leading-relaxed max-w-2xl mx-auto">
                 Through platforms like Rednote and YouTube, I share yoga philosophy, spiritual insights, and real stories from people exploring their own paths of growth.
                 My intention is to make ancient wisdom feel alive and relevant in our modern world — helping others reconnect with their inner compass and live with greater awareness and authenticity.
               </p>
@@ -114,36 +114,36 @@ const Home = () => {
         </div>
       </section>
 
-      {/* Philosophy Section */}
-      <section className="container mx-auto px-6 py-20 md:py-32">
-        <div className="max-w-2xl mx-auto space-y-8">
-          <h2 className="text-3xl md:text-4xl font-light text-center text-foreground">
+      {/* My Philosophy */}
+      <section className="container mx-auto px-6 py-24 md:py-40">
+        <div className="max-w-3xl mx-auto space-y-12">
+          <h2 className="text-4xl md:text-5xl font-light text-center text-foreground mb-12 tracking-tight">
             My Philosophy
           </h2>
 
-          <div className="space-y-6 text-muted-foreground font-light leading-relaxed">
-            <p className="text-center text-lg">
+          <div className="space-y-8 text-muted-foreground font-light leading-relaxed">
+            <p className="text-center text-2xl md:text-3xl font-normal text-foreground">
               Everyone is a creator.
             </p>
 
-            <p className="text-center">When you tap into your intuition and align with yourself, something profound happens. You become grounded in who you truly are. From this place of authentic connection, you naturally create and provide value to the world. You act from abundance, not scarcity. You play an infinite game, not a finite game.</p>
+            <p className="text-center text-lg leading-loose max-w-2xl mx-auto">When you tap into your intuition and align with yourself, something profound happens. You become grounded in who you truly are. From this place of authentic connection, you naturally create and provide value to the world. You act from abundance, not scarcity. You play an infinite game, not a finite game.</p>
           </div>
         </div>
       </section>
 
       {/* Natural Healing Background Section */}
-      <section className="relative w-full py-32 md:py-48 overflow-hidden">
+      <section className="relative w-full py-40 md:py-56 overflow-hidden">
         <div className="absolute inset-0">
           <img src={palmsSunset} alt="Palm trees silhouetted against peaceful sunset sky" className="w-full h-full object-cover" />
           <div className="absolute inset-0 bg-background/40 backdrop-blur-[2px]"></div>
         </div>
         
         <div className="relative container mx-auto px-6">
-          <div className="max-w-2xl mx-auto text-center space-y-6">
-            <h2 className="text-4xl md:text-5xl font-light text-white drop-shadow-lg">
+          <div className="max-w-3xl mx-auto text-center space-y-8">
+            <h2 className="text-5xl md:text-6xl font-light text-white drop-shadow-lg tracking-tight mb-6">
               Natural Healing
             </h2>
-            <p className="text-lg md:text-xl text-white/90 font-light leading-relaxed drop-shadow-md">
+            <p className="text-xl md:text-2xl text-white/90 font-light leading-relaxed drop-shadow-md">
               Finding peace in nature's rhythm, where the earth meets the sea and ancient wisdom flows through every moment.
             </p>
           </div>
@@ -151,7 +151,7 @@ const Home = () => {
       </section>
 
       {/* Natural Healing Gallery */}
-      <section className="container mx-auto px-6 py-20 md:py-32">
+      <section className="container mx-auto px-6 py-24 md:py-40">
         <div className="max-w-4xl mx-auto">
           <div className="grid md:grid-cols-2 gap-6">
             <Tilt
