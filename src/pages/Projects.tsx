@@ -13,27 +13,39 @@ const Projects = () => {
           </h1>
 
           <div className="space-y-12">
-            {/* Environmental Literacy & Conservation */}
+            {/* University of Maryland - EPA-funded */}
             <div className="space-y-4 p-8 rounded-2xl bg-gradient-to-br from-background via-primary/5 to-background border border-primary/10 transition-all duration-500 hover:border-primary/30 hover:shadow-xl">
-              <h3 className="text-2xl font-medium text-foreground">Environmental Literacy & Conservation</h3>
+              <h3 className="text-2xl font-medium text-foreground">University of Maryland Center for Environmental Science – Chesapeake Bay Program</h3>
+              <p className="text-sm text-foreground/60 font-light mb-2">EPA-funded Institution | October 2023 – Present</p>
               <p className="text-foreground/80 font-light leading-relaxed">
-                As the lead researcher at the University of Maryland (EPA-funded), I direct the end-to-end research strategy for three platforms (1.5M+ users). My work drives core conservation behaviors and informs policy by delivering actionable insights. I also mentor and upskill EPA staff, embedding UX best practices across the organization.
+                Leading user research across three platforms serving 1.5 million users, improving environmental literacy and conservation behavior. Led four rounds of card sorting and tree testing to redesign ChesapeakeBay.net information architecture, achieving a 4x reduction in task completion time and 10% increase in task success rate. Design and implement education plans to support EPA staff on UX research best practices and advance inclusivity through equitable research practices.
               </p>
             </div>
 
-            {/* Roku Sports */}
+            {/* Roku */}
             <div className="space-y-4 p-8 rounded-2xl bg-gradient-to-br from-background via-primary/5 to-background border border-primary/10 transition-all duration-500 hover:border-primary/30 hover:shadow-xl">
-              <h3 className="text-2xl font-medium text-foreground">Roku Sports Zone (50M+ Users)</h3>
+              <h3 className="text-2xl font-medium text-foreground">Roku, Inc – Sports Zone Launch</h3>
+              <p className="text-sm text-foreground/60 font-light mb-2">Full-Time & Internship | May 2021 – March 2023</p>
               <p className="text-foreground/80 font-light leading-relaxed">
-                At Roku, I owned the foundational research roadmap for the 50M+ user Sports Zone. My strategic insights directly shaped the product launch and unlocked key partnership opportunities with global brands like Nike and Google, driving significant ecosystem growth.
+                Created and led research roadmaps that directly influenced the launch of Roku's Sports Zone, now with 50M+ active users. Conducted end-to-end mixed-method studies across mobile, hardware, and sports experiences, shaping product strategies and user flows. Presented insights to stakeholders, enabling partnerships with major brands like Nike and Google. Achieved 28% increase in user satisfaction and established an agile research framework that was scaled across multiple teams.
+              </p>
+            </div>
+
+            {/* Photon Infotech - Walgreens */}
+            <div className="space-y-4 p-8 rounded-2xl bg-gradient-to-br from-background via-primary/5 to-background border border-primary/10 transition-all duration-500 hover:border-primary/30 hover:shadow-xl">
+              <h3 className="text-2xl font-medium text-foreground">Photon Infotech – Walgreens Customer Engagement</h3>
+              <p className="text-sm text-foreground/60 font-light mb-2">Contract Position | July 2023 – October 2023</p>
+              <p className="text-foreground/80 font-light leading-relaxed">
+                Conducted generative research to inform Walgreens' customer engagement strategy. Delivered creative, brand-aligned recommendations to support both marketing and merchant goals.
               </p>
             </div>
 
             {/* Cisco */}
             <div className="space-y-4 p-8 rounded-2xl bg-gradient-to-br from-background via-primary/5 to-background border border-primary/10 transition-all duration-500 hover:border-primary/30 hover:shadow-xl">
-              <h3 className="text-2xl font-medium text-foreground">Cisco Webex Calling</h3>
+              <h3 className="text-2xl font-medium text-foreground">Cisco – Webex Calling</h3>
+              <p className="text-sm text-foreground/60 font-light mb-2">Research Intern | May 2020 – August 2020</p>
               <p className="text-foreground/80 font-light leading-relaxed">
-                As a UX Researcher at Cisco, I executed rapid-cycle concept and usability tests for Webex Calling. My findings directly influenced the product roadmap, resulting in a 35% boost in task success rates and 10 engineering implementations deployed 8 days ahead of schedule, demonstrating high velocity and impact.
+                Strategically planned and executed exploratory and evaluative research for B2B Webex Calling Tool. Completed the research 8 days ahead of schedule, resulting in a 35% increase in task success rate and implementation of 10 research insights by engineering team.
               </p>
             </div>
           </div>
