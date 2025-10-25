@@ -13,7 +13,7 @@ const Projects = () => {
           <div className="space-y-12">
             {/* Environmental Literacy & Conservation */}
             <div className="space-y-4 p-8 rounded-2xl bg-gradient-to-br from-background via-primary/5 to-background border border-primary/10 transition-all duration-500 hover:border-primary/30 hover:shadow-xl">
-              <h3 className="text-2xl font-medium text-foreground">Environmental Literacy & Conservation</h3>
+              <h3 className="text-2xl font-medium text-foreground">University of Maryland Center for Environmental Science – Chesapeake Bay Program</h3>
               <p className="text-foreground/80 font-light leading-relaxed">EPA-funded Institution | October 2023 – June 2025</p>
             </div>
 
