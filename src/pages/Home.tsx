@@ -35,9 +35,7 @@ const Home = () => {
                 Inner Compass
               </h1>
 
-              <p className="text-lg md:text-xl text-white font-light leading-relaxed drop-shadow-lg backdrop-blur-sm bg-background/10 rounded-2xl p-8 transition-all duration-500 hover:bg-background/20 max-w-2xl mb-8">
-                I am building community and tools that empower people to connect more deeply with themselves and their higher self. Together, we create spaces for authentic growth and transformation.
-              </p>
+              <p className="text-lg md:text-xl text-white font-light leading-relaxed drop-shadow-lg backdrop-blur-sm bg-background/10 rounded-2xl p-8 transition-all duration-500 hover:bg-background/20 max-w-2xl mb-8">I am building community and tools that empower people to connect more deeply with themselves and their higher self. Together, we can create spaces for authentic growth and transformation.</p>
 
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <a href="https://calendly.com/dingyuhu/20-mins-chat" target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center px-8 py-4 bg-accent text-accent-foreground font-medium rounded-lg hover:bg-accent/90 transition-all duration-300 shadow-lg hover:shadow-xl">Let's Connect</a>
