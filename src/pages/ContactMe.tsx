@@ -52,7 +52,7 @@ const ContactMe = () => {
                     className="inline-flex items-center gap-2 px-6 py-3 bg-accent hover:bg-accent/90 text-accent-foreground rounded-lg transition-all font-medium shadow-md hover:shadow-lg"
                   >
                     <Calendar className="w-4 h-4" />
-                    Schedule a Call
+                    Let's Connect
                   </a>
                 </div>
               </div>
