@@ -20,18 +20,18 @@ const Stories = () => {
             {/* Language Toggle */}
             <div className="flex justify-center gap-2">
               <Button
-                variant={language === "en" ? "default" : "outline"}
-                onClick={() => setLanguage("en")}
-                className="px-6"
-              >
-                English
-              </Button>
-              <Button
                 variant={language === "zh" ? "default" : "outline"}
                 onClick={() => setLanguage("zh")}
                 className="px-6"
               >
                 中文
+              </Button>
+              <Button
+                variant={language === "en" ? "default" : "outline"}
+                onClick={() => setLanguage("en")}
+                className="px-6"
+              >
+                English
               </Button>
             </div>
           </div>
