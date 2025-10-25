@@ -1,5 +1,5 @@
 import Navigation from "@/components/Navigation";
-import { Mail, Heart } from "lucide-react";
+import { Mail, Heart, Calendar } from "lucide-react";
 
 const ContactMe = () => {
   return (
@@ -27,11 +27,32 @@ const ContactMe = () => {
                 <Mail className="w-6 h-6 text-primary opacity-70" strokeWidth={1.5} />
                 <div>
                   <h3 className="text-lg font-light text-foreground mb-1">Email</h3>
-                  <a 
-                    href="mailto:dingyuhu01@gmail.com" 
+                  <a
+                    href="mailto:dingyuhu01@gmail.com"
                     className="text-muted-foreground hover:text-foreground transition-colors font-light"
                   >
                     dingyuhu01@gmail.com
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div className="bg-card border border-border rounded-lg p-8 md:p-12 space-y-6">
+              <div className="flex items-center gap-4">
+                <Calendar className="w-6 h-6 text-primary opacity-70" strokeWidth={1.5} />
+                <div className="flex-1">
+                  <h3 className="text-lg font-light text-foreground mb-2">Book a Time to Chat</h3>
+                  <p className="text-sm text-muted-foreground font-light mb-4">
+                    Schedule a call directly on my calendar
+                  </p>
+                  <a
+                    href="https://calendly.com/dingyuhu/30min"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-2 px-6 py-3 bg-primary/10 hover:bg-primary/20 text-primary rounded-lg transition-colors font-light"
+                  >
+                    <Calendar className="w-4 h-4" />
+                    Schedule a Call
                   </a>
                 </div>
               </div>

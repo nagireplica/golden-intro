@@ -4,49 +4,41 @@ const Projects = () => {
   return (
     <div className="min-h-screen bg-background text-foreground">
       <Navigation />
-      
-      <div className="container mx-auto px-6 py-20">
-        <div className="max-w-3xl mx-auto space-y-16">
-          <section className="space-y-8">
-            <h1 className="text-4xl md:text-5xl font-light text-center text-foreground">
-              Current Journey
-            </h1>
-            
-            <div className="space-y-6">
-              <div className="bg-card border border-border rounded-lg p-8 md:p-12 space-y-4">
-                <div className="flex items-start gap-4">
-                  <div className="w-1 h-16 bg-primary opacity-40 rounded-full"></div>
-                  <div className="space-y-3">
-                    <h3 className="text-xl font-light text-foreground">
-                      Stanford Medical Collaboration
-                    </h3>
-                    <p className="text-muted-foreground font-light leading-relaxed">
-                      Partnering with a Stanford medical professor to develop and monetize 
-                      innovative assessment services and wellness products, bridging academic 
-                      research with accessible health solutions.
-                    </p>
-                  </div>
-                </div>
-              </div>
 
-              <div className="bg-card border border-border rounded-lg p-8 md:p-12 space-y-4">
-                <div className="flex items-start gap-4">
-                  <div className="w-1 h-16 bg-accent opacity-40 rounded-full"></div>
-                  <div className="space-y-3">
-                    <h3 className="text-xl font-light text-foreground">
-                      Building a Mindful Business
-                    </h3>
-                    <p className="text-muted-foreground font-light leading-relaxed">
-                      Creating a wellness ecosystem that honors simplicity—curating products like 
-                      crystals, incense, and mindful tools while teaching yoga and meditation.
-                    </p>
-                  </div>
-                </div>
-              </div>
+      {/* Previous Projects Section */}
+      <section className="container mx-auto px-6 py-20 md:py-32">
+        <div className="max-w-4xl mx-auto space-y-16">
+          <h1 className="text-3xl md:text-4xl font-light text-center text-foreground">
+            Previous Projects
+          </h1>
+
+          <div className="space-y-12">
+            {/* Environmental Literacy & Conservation */}
+            <div className="space-y-4 p-8 rounded-2xl bg-gradient-to-br from-background via-primary/5 to-background border border-primary/10 transition-all duration-500 hover:border-primary/30 hover:shadow-xl">
+              <h3 className="text-2xl font-light text-foreground">Environmental Literacy & Conservation</h3>
+              <p className="text-muted-foreground font-light leading-relaxed">
+                As the lead researcher at the University of Maryland (EPA-funded), I direct the end-to-end research strategy for three platforms (1.5M+ users). My work drives core conservation behaviors and informs policy by delivering actionable insights. I also mentor and upskill EPA staff, embedding UX best practices across the organization.
+              </p>
             </div>
-          </section>
+
+            {/* Roku Sports */}
+            <div className="space-y-4 p-8 rounded-2xl bg-gradient-to-br from-background via-primary/5 to-background border border-primary/10 transition-all duration-500 hover:border-primary/30 hover:shadow-xl">
+              <h3 className="text-2xl font-light text-foreground">Roku Sports Zone (50M+ Users)</h3>
+              <p className="text-muted-foreground font-light leading-relaxed">
+                At Roku, I owned the foundational research roadmap for the 50M+ user Sports Zone. My strategic insights directly shaped the product launch and unlocked key partnership opportunities with global brands like Nike and Google, driving significant ecosystem growth.
+              </p>
+            </div>
+
+            {/* Cisco */}
+            <div className="space-y-4 p-8 rounded-2xl bg-gradient-to-br from-background via-primary/5 to-background border border-primary/10 transition-all duration-500 hover:border-primary/30 hover:shadow-xl">
+              <h3 className="text-2xl font-light text-foreground">Cisco</h3>
+              <p className="text-muted-foreground font-light leading-relaxed">
+                Working in technology infrastructure and networking solutions, developing skills in systematic thinking and complex problem-solving.
+              </p>
+            </div>
+          </div>
         </div>
-      </div>
+      </section>
 
       {/* Footer */}
       <footer className="container mx-auto px-6 py-12 border-t border-border">

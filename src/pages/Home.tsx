@@ -3,21 +3,64 @@ import Navigation from "@/components/Navigation";
 import palmsSunset from "@/assets/palms-sunset.jpg";
 import turtlesBeach from "@/assets/turtles-beach.jpg";
 import yogaBeach from "@/assets/yoga-beach.jpg";
+import bamboo from "@/assets/bamboo.jpg";
+import empty from "@/assets/empty.jpg";
+import Tilt from "react-parallax-tilt";
 const Home = () => {
   return <div className="min-h-screen bg-background text-foreground">
       <Navigation />
       
-      {/* Hero Section */}
-      <section className="container mx-auto px-6 py-20 md:py-32">
-        <div className="max-w-3xl mx-auto text-center space-y-8">
-          <div className="inline-block">
-            <Leaf className="w-12 h-12 text-primary mb-6 mx-auto opacity-70" strokeWidth={1.5} />
+      {/* Hero Section with Tilt and Parallax */}
+      <section className="relative w-full py-20 md:py-32 overflow-hidden">
+        <Tilt
+          tiltMaxAngleX={5}
+          tiltMaxAngleY={5}
+          perspective={1000}
+          transitionSpeed={2000}
+          scale={1.02}
+          gyroscope={true}
+          className="w-full h-full"
+        >
+          <div className="absolute inset-0">
+            {/* Base layer - Bamboo */}
+            <div className="absolute inset-0 transition-transform duration-700 ease-out" style={{ transform: 'translateZ(0px)' }}>
+              <img src={bamboo} alt="Tranquil bamboo forest" className="w-full h-full object-cover" />
+            </div>
+
+            {/* Middle layer - Turtles beach with parallax */}
+            <div className="absolute inset-0 opacity-30 transition-transform duration-500 ease-out" style={{ transform: 'translateZ(20px) scale(0.95)' }}>
+              <img src={turtlesBeach} alt="Sea turtles on coastal rocks" className="w-full h-full object-cover mix-blend-overlay" />
+            </div>
+
+            {/* Top layer - Yoga beach with parallax */}
+            <div className="absolute inset-0 opacity-20 transition-transform duration-300 ease-out" style={{ transform: 'translateZ(40px) scale(0.9)' }}>
+              <img src={yogaBeach} alt="Yoga practice on the beach" className="w-full h-full object-cover mix-blend-soft-light" />
+            </div>
+
+            {/* Glassmorphism overlay with gradient orbs */}
+            <div className="absolute inset-0 bg-gradient-to-br from-background/50 via-background/30 to-background/50 backdrop-blur-[3px]"></div>
+
+            {/* Floating gradient orbs */}
+            <div className="absolute top-1/4 left-1/4 w-64 h-64 bg-primary/10 rounded-full blur-3xl animate-pulse"></div>
+            <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-primary/5 rounded-full blur-3xl animate-pulse" style={{ animationDelay: '1s' }}></div>
           </div>
-          
-          <h1 className="text-5xl md:text-7xl font-light tracking-tight text-foreground">Inner Compass</h1>
-          
-          <p className="text-xl md:text-2xl text-muted-foreground font-light leading-relaxed">Coming from a social science and HCI research background. I am creating tools  and community to empower grounded and auentic face to face connection.</p>
-        </div>
+
+          <div className="relative container mx-auto px-6 py-20 md:py-32" style={{ transform: 'translateZ(60px)' }}>
+            <div className="max-w-3xl mx-auto text-center space-y-8">
+              <div className="inline-block transition-transform duration-500 hover:scale-110">
+                <Leaf className="w-12 h-12 text-white mb-6 mx-auto opacity-80 drop-shadow-2xl" strokeWidth={1.5} />
+              </div>
+
+              <h1 className="text-5xl md:text-7xl font-light tracking-tight text-white drop-shadow-2xl transition-all duration-500 hover:scale-105">
+                Inner Compass
+              </h1>
+
+              <p className="text-xl md:text-2xl text-white/95 font-light leading-relaxed drop-shadow-lg backdrop-blur-sm bg-background/10 rounded-2xl p-6 transition-all duration-500 hover:bg-background/20">
+                With a background in social science and HCI research, I create mindful experiences—through yoga, wellness tools, and community—to help people reconnect with their bodies and each other.
+              </p>
+            </div>
+          </div>
+        </Tilt>
       </section>
 
       {/* Divider */}
@@ -25,31 +68,48 @@ const Home = () => {
         <div className="max-w-3xl mx-auto h-px bg-border opacity-50"></div>
       </div>
 
-      {/* Focus Areas */}
+      {/* Current Journey & Focus */}
       <section className="container mx-auto px-6 py-20 md:py-32">
-        <div className="max-w-3xl mx-auto grid md:grid-cols-3 gap-12">
-          <div className="text-center space-y-4">
-            <Leaf className="w-8 h-8 text-primary mx-auto opacity-60" strokeWidth={1.5} />
-            <h3 className="text-lg font-light text-foreground">Outdoor Yoga Events</h3>
-            <p className="text-sm text-muted-foreground font-light leading-relaxed">
-              Movement as meditation, connecting body and breath in harmony.
-            </p>
-          </div>
-          
-          <div className="text-center space-y-4">
-            <Heart className="w-8 h-8 text-primary mx-auto opacity-60" strokeWidth={1.5} />
-            <h3 className="text-lg font-light text-foreground">Meditation</h3>
-            <p className="text-sm text-muted-foreground font-light leading-relaxed">
-              Cultivating presence and inner peace through mindful awareness.
-            </p>
-          </div>
-          
-          <div className="text-center space-y-4">
-            <Sparkles className="w-8 h-8 text-primary mx-auto opacity-60" strokeWidth={1.5} />
-            <h3 className="text-lg font-light text-foreground">Health Products</h3>
-            <p className="text-sm text-muted-foreground font-light leading-relaxed">
-              Developing thoughtful tools to support wellness journeys.
-            </p>
+        <div className="max-w-4xl mx-auto space-y-12">
+          <h2 className="text-3xl md:text-4xl font-light text-center text-foreground">
+            Current Journey & Focus
+          </h2>
+
+          <div className="space-y-12">
+            <div className="space-y-4">
+              <div className="flex items-center justify-center gap-3">
+                <Leaf className="w-8 h-8 text-primary opacity-60" strokeWidth={1.5} />
+                <h3 className="text-2xl font-light text-foreground">Outdoor Yoga & Meditation</h3>
+              </div>
+              <p className="text-center text-muted-foreground font-light leading-relaxed max-w-3xl mx-auto">
+                Nature holds its own healing energy.
+                Through outdoor yoga and meditation, I guide people to deepen the connection between mind and body — to breathe with awareness, feel grounded, and rediscover inner peace through presence.
+              </p>
+            </div>
+
+            <div className="space-y-4">
+              <div className="flex items-center justify-center gap-3">
+                <Heart className="w-8 h-8 text-primary opacity-60" strokeWidth={1.5} />
+                <h3 className="text-2xl font-light text-foreground">Health & Wellness Products</h3>
+              </div>
+              <p className="text-center text-muted-foreground font-light leading-relaxed max-w-3xl mx-auto">
+                I'm creating a product inspired by mindfulness — crafted to nurture holistic well-being, energy healing, and a sense of balance and harmony in everyday life.
+              </p>
+              <p className="text-center text-muted-foreground font-light italic">
+                Stay tuned :)
+              </p>
+            </div>
+
+            <div className="space-y-4">
+              <div className="flex items-center justify-center gap-3">
+                <Sparkles className="w-8 h-8 text-primary opacity-60" strokeWidth={1.5} />
+                <h3 className="text-2xl font-light text-foreground">Content & Community</h3>
+              </div>
+              <p className="text-center text-muted-foreground font-light leading-relaxed max-w-3xl mx-auto">
+                Through platforms like Rednote and YouTube, I share yoga philosophy, spiritual insights, and real stories from people exploring their own paths of growth.
+                My intention is to make ancient wisdom feel alive and relevant in our modern world — helping others reconnect with their inner compass and live with greater awareness and authenticity.
+              </p>
+            </div>
           </div>
         </div>
       </section>
@@ -60,19 +120,13 @@ const Home = () => {
           <h2 className="text-3xl md:text-4xl font-light text-center text-foreground">
             My Philosophy
           </h2>
-          
+
           <div className="space-y-6 text-muted-foreground font-light leading-relaxed">
             <p className="text-center text-lg">
               Everyone is a creator.
             </p>
-            
-            <p className="text-center">When you align with yourself and tap into your intuition, something profound happens. You become grounded and aligned. From this place of authentic connection, you naturally create and provide value to the world. You act with abundance mindset, not scarcity. Play a limitless game, not a competitive game.</p>
-            
-            <p className="text-center">
-              I am working on projects that help others find peace and alignment—creating the space 
-              and tools for people to discover their own inner wisdom, so they can share their unique 
-              gifts with the world.
-            </p>
+
+            <p className="text-center">When you tap into your intuition and align with yourself, something profound happens. You become grounded in who you truly are. From this place of authentic connection, you naturally create and provide value to the world. You act from abundance, not scarcity. You play an infinite game, not a finite game.</p>
           </div>
         </div>
       </section>
@@ -100,15 +154,43 @@ const Home = () => {
       <section className="container mx-auto px-6 py-20 md:py-32">
         <div className="max-w-4xl mx-auto">
           <div className="grid md:grid-cols-2 gap-6">
-            <div className="group relative overflow-hidden rounded-lg aspect-[4/5]">
-              <img src={turtlesBeach} alt="Sea turtles resting on coastal rocks - natural tranquility" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
-              <div className="absolute inset-0 bg-gradient-to-t from-background/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
-            </div>
-            
-            <div className="group relative overflow-hidden rounded-lg aspect-[4/5]">
-              <img src={yogaBeach} alt="Yoga practice on the beach at sunset - mindful movement" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
-              <div className="absolute inset-0 bg-gradient-to-t from-background/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
-            </div>
+            <Tilt
+              tiltMaxAngleX={3}
+              tiltMaxAngleY={3}
+              perspective={1500}
+              transitionSpeed={1500}
+              scale={1.05}
+              className="group relative overflow-hidden rounded-lg aspect-[4/5] shadow-2xl"
+            >
+              <img
+                src={turtlesBeach}
+                alt="Sea turtles resting on coastal rocks - natural tranquility"
+                className="w-full h-full object-cover transition-all duration-700 group-hover:brightness-110"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-background/70 via-background/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 backdrop-blur-[1px]"></div>
+              <div className="absolute inset-0 ring-1 ring-primary/0 group-hover:ring-primary/30 transition-all duration-500 rounded-lg"></div>
+              {/* Subtle glow effect */}
+              <div className="absolute -inset-0.5 bg-gradient-to-r from-primary/0 via-primary/20 to-primary/0 opacity-0 group-hover:opacity-100 blur-xl transition-opacity duration-700 -z-10"></div>
+            </Tilt>
+
+            <Tilt
+              tiltMaxAngleX={3}
+              tiltMaxAngleY={3}
+              perspective={1500}
+              transitionSpeed={1500}
+              scale={1.05}
+              className="group relative overflow-hidden rounded-lg aspect-[4/5] shadow-2xl"
+            >
+              <img
+                src={yogaBeach}
+                alt="Yoga practice on the beach at sunset - mindful movement"
+                className="w-full h-full object-cover transition-all duration-700 group-hover:brightness-110"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-background/70 via-background/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 backdrop-blur-[1px]"></div>
+              <div className="absolute inset-0 ring-1 ring-primary/0 group-hover:ring-primary/30 transition-all duration-500 rounded-lg"></div>
+              {/* Subtle glow effect */}
+              <div className="absolute -inset-0.5 bg-gradient-to-r from-primary/0 via-primary/20 to-primary/0 opacity-0 group-hover:opacity-100 blur-xl transition-opacity duration-700 -z-10"></div>
+            </Tilt>
           </div>
         </div>
       </section>
