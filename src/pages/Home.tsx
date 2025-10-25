@@ -17,32 +17,18 @@ const Home = () => {
           tiltMaxAngleY={5}
           perspective={1000}
           transitionSpeed={2000}
-          scale={1.02}
+          scale={1.01}
           gyroscope={true}
           className="w-full h-full"
         >
           <div className="absolute inset-0">
-            {/* Base layer - Bamboo */}
-            <div className="absolute inset-0 transition-transform duration-700 ease-out" style={{ transform: 'translateZ(0px)' }}>
+            {/* Single bamboo image */}
+            <div className="absolute inset-0">
               <img src={bamboo} alt="Tranquil bamboo forest" className="w-full h-full object-cover" />
             </div>
 
-            {/* Middle layer - Turtles beach with parallax */}
-            <div className="absolute inset-0 opacity-30 transition-transform duration-500 ease-out" style={{ transform: 'translateZ(20px) scale(0.95)' }}>
-              <img src={turtlesBeach} alt="Sea turtles on coastal rocks" className="w-full h-full object-cover mix-blend-overlay" />
-            </div>
-
-            {/* Top layer - Yoga beach with parallax */}
-            <div className="absolute inset-0 opacity-20 transition-transform duration-300 ease-out" style={{ transform: 'translateZ(40px) scale(0.9)' }}>
-              <img src={yogaBeach} alt="Yoga practice on the beach" className="w-full h-full object-cover mix-blend-soft-light" />
-            </div>
-
-            {/* Glassmorphism overlay with gradient orbs */}
-            <div className="absolute inset-0 bg-gradient-to-br from-background/50 via-background/30 to-background/50 backdrop-blur-[3px]"></div>
-
-            {/* Floating gradient orbs */}
-            <div className="absolute top-1/4 left-1/4 w-64 h-64 bg-primary/10 rounded-full blur-3xl animate-pulse"></div>
-            <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-primary/5 rounded-full blur-3xl animate-pulse" style={{ animationDelay: '1s' }}></div>
+            {/* Subtle gradient overlay */}
+            <div className="absolute inset-0 bg-gradient-to-b from-background/40 via-background/20 to-background/40"></div>
           </div>
 
           <div className="relative container mx-auto px-6 py-20 md:py-32" style={{ transform: 'translateZ(60px)' }}>
