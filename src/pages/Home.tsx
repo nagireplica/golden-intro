@@ -42,7 +42,7 @@ const Home = () => {
               </h1>
 
               <p className="text-lg md:text-xl text-white/95 font-light leading-relaxed drop-shadow-lg backdrop-blur-sm bg-background/10 rounded-2xl p-8 transition-all duration-500 hover:bg-background/20 max-w-2xl">
-                I am building community and tools that empower people to connect more deeply, with their themseles and their higher self.
+                I am building community and tools that empower people to connect more deeply with themselves and their higher self. Together, we create spaces for authentic growth and transformation.
               </p>
             </div>
           </div>
@@ -57,26 +57,26 @@ const Home = () => {
       {/* Current Journey & Focus */}
       <section className="container mx-auto px-6 py-24 md:py-40">
         <div className="max-w-4xl mx-auto space-y-16">
-          <h2 className="text-4xl md:text-5xl font-light text-center text-foreground mb-16 tracking-tight">
+          <h2 className="text-4xl md:text-5xl font-normal text-center text-foreground mb-16 tracking-tight">
             Current Journey & Focus
           </h2>
 
           <div className="space-y-20">
-            <div className="space-y-6">
+            <article className="space-y-6">
               <div className="flex items-center justify-center gap-4 mb-4">
                 <Leaf className="w-10 h-10 text-primary opacity-70" strokeWidth={1.5} />
-                <h3 className="text-3xl md:text-4xl font-normal text-foreground">Outdoor Yoga & Meditation</h3>
+                <h3 className="text-2xl md:text-3xl font-normal text-foreground">Outdoor Yoga & Meditation</h3>
               </div>
               <p className="text-center text-muted-foreground text-lg font-light leading-relaxed max-w-2xl mx-auto">
                 Nature holds its own healing energy.
                 Through outdoor yoga and meditation, I guide people to deepen the connection between mind and body — to breathe with awareness, feel grounded, and rediscover inner peace through presence.
               </p>
-            </div>
+            </article>
 
-            <div className="space-y-6">
+            <article className="space-y-6">
               <div className="flex items-center justify-center gap-4 mb-4">
                 <Heart className="w-10 h-10 text-primary opacity-70" strokeWidth={1.5} />
-                <h3 className="text-3xl md:text-4xl font-normal text-foreground">Health & Wellness Products</h3>
+                <h3 className="text-2xl md:text-3xl font-normal text-foreground">Health & Wellness Products</h3>
               </div>
               <p className="text-center text-muted-foreground text-lg font-light leading-relaxed max-w-2xl mx-auto">
                 I'm creating a product inspired by mindfulness — crafted to nurture holistic well-being, energy healing, and a sense of balance and harmony in everyday life.
@@ -84,18 +84,18 @@ const Home = () => {
               <p className="text-center text-muted-foreground text-base font-light italic mt-3">
                 Stay tuned :)
               </p>
-            </div>
+            </article>
 
-            <div className="space-y-6">
+            <article className="space-y-6">
               <div className="flex items-center justify-center gap-4 mb-4">
                 <Sparkles className="w-10 h-10 text-primary opacity-70" strokeWidth={1.5} />
-                <h3 className="text-3xl md:text-4xl font-normal text-foreground">Content & Community</h3>
+                <h3 className="text-2xl md:text-3xl font-normal text-foreground">Content & Community</h3>
               </div>
               <p className="text-center text-muted-foreground text-lg font-light leading-relaxed max-w-2xl mx-auto">
                 Through platforms like Rednote and YouTube, I share yoga philosophy, spiritual insights, and real stories from people exploring their own paths of growth.
                 My intention is to make ancient wisdom feel alive and relevant in our modern world — helping others reconnect with their inner compass and live with greater awareness and authenticity.
               </p>
-            </div>
+            </article>
           </div>
         </div>
       </section>
@@ -103,7 +103,7 @@ const Home = () => {
       {/* My Philosophy */}
       <section className="container mx-auto px-6 py-24 md:py-40">
         <div className="max-w-3xl mx-auto space-y-12">
-          <h2 className="text-4xl md:text-5xl font-light text-center text-foreground mb-12 tracking-tight">
+          <h2 className="text-4xl md:text-5xl font-normal text-center text-foreground mb-12 tracking-tight">
             My Philosophy
           </h2>
 
@@ -126,7 +126,7 @@ const Home = () => {
         
         <div className="relative container mx-auto px-6">
           <div className="max-w-3xl mx-auto text-center space-y-8">
-            <h2 className="text-5xl md:text-6xl font-light text-white drop-shadow-lg tracking-tight mb-6">
+            <h2 className="text-5xl md:text-6xl font-normal text-white drop-shadow-lg tracking-tight mb-6">
               Natural Healing
             </h2>
             <p className="text-xl md:text-2xl text-white/90 font-light leading-relaxed drop-shadow-md">
