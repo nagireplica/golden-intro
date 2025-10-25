@@ -31,9 +31,9 @@ const Projects = () => {
 
             {/* Cisco */}
             <div className="space-y-4 p-8 rounded-2xl bg-gradient-to-br from-background via-primary/5 to-background border border-primary/10 transition-all duration-500 hover:border-primary/30 hover:shadow-xl">
-              <h3 className="text-2xl font-light text-foreground">Cisco</h3>
+              <h3 className="text-2xl font-light text-foreground">Cisco Webex Calling</h3>
               <p className="text-muted-foreground font-light leading-relaxed">
-                Working in technology infrastructure and networking solutions, developing skills in systematic thinking and complex problem-solving.
+                As a UX Researcher at Cisco, I executed rapid-cycle concept and usability tests for Webex Calling. My findings directly influenced the product roadmap, resulting in a 35% boost in task success rates and 10 engineering implementations deployed 8 days ahead of schedule, demonstrating high velocity and impact.
               </p>
             </div>
           </div>
