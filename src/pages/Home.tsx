@@ -12,15 +12,7 @@ const Home = () => {
       
       {/* Hero Section with Tilt and Parallax */}
       <section className="relative w-full py-24 md:py-40 overflow-hidden">
-        <Tilt
-          tiltMaxAngleX={5}
-          tiltMaxAngleY={5}
-          perspective={1000}
-          transitionSpeed={2000}
-          scale={1.01}
-          gyroscope={true}
-          className="w-full h-full"
-        >
+        <Tilt tiltMaxAngleX={5} tiltMaxAngleY={5} perspective={1000} transitionSpeed={2000} scale={1.01} gyroscope={true} className="w-full h-full">
           <div className="absolute inset-0">
             {/* Single bamboo image */}
             <div className="absolute inset-0">
@@ -31,7 +23,9 @@ const Home = () => {
             <div className="absolute inset-0 bg-gradient-to-b from-background/40 via-background/20 to-background/40"></div>
           </div>
 
-          <div className="relative container mx-auto px-6 py-20 md:py-32" style={{ transform: 'translateZ(60px)' }}>
+          <div className="relative container mx-auto px-6 py-20 md:py-32" style={{
+          transform: 'translateZ(60px)'
+        }}>
             <div className="max-w-3xl mx-auto text-center space-y-8">
               <div className="inline-block transition-transform duration-500 hover:scale-110">
                 <Leaf className="w-12 h-12 text-white mb-6 mx-auto opacity-80 drop-shadow-2xl" strokeWidth={1.5} />
@@ -46,9 +40,7 @@ const Home = () => {
               </p>
 
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <a href="/contact" className="inline-flex items-center justify-center px-8 py-4 bg-accent text-accent-foreground font-medium rounded-lg hover:bg-accent/90 transition-all duration-300 shadow-lg hover:shadow-xl">
-                  Schedule a Session
-                </a>
+                <a href="/contact" className="inline-flex items-center justify-center px-8 py-4 bg-accent text-accent-foreground font-medium rounded-lg hover:bg-accent/90 transition-all duration-300 shadow-lg hover:shadow-xl">Let's connect</a>
                 <a href="/about" className="inline-flex items-center justify-center px-8 py-4 bg-white/20 text-white font-medium rounded-lg hover:bg-white/30 backdrop-blur-sm transition-all duration-300 border border-white/30">
                   Learn More
                 </a>
@@ -169,38 +161,16 @@ const Home = () => {
       <section className="container mx-auto px-6 py-20 md:py-32">
         <div className="max-w-4xl mx-auto">
           <div className="grid md:grid-cols-2 gap-6">
-            <Tilt
-              tiltMaxAngleX={3}
-              tiltMaxAngleY={3}
-              perspective={1500}
-              transitionSpeed={1500}
-              scale={1.05}
-              className="group relative overflow-hidden rounded-lg aspect-[4/5] shadow-2xl"
-            >
-              <img
-                src={turtlesBeach}
-                alt="Sea turtles resting on coastal rocks - natural tranquility"
-                className="w-full h-full object-cover transition-all duration-700 group-hover:brightness-110"
-              />
+            <Tilt tiltMaxAngleX={3} tiltMaxAngleY={3} perspective={1500} transitionSpeed={1500} scale={1.05} className="group relative overflow-hidden rounded-lg aspect-[4/5] shadow-2xl">
+              <img src={turtlesBeach} alt="Sea turtles resting on coastal rocks - natural tranquility" className="w-full h-full object-cover transition-all duration-700 group-hover:brightness-110" />
               <div className="absolute inset-0 bg-gradient-to-t from-background/70 via-background/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 backdrop-blur-[1px]"></div>
               <div className="absolute inset-0 ring-1 ring-primary/0 group-hover:ring-primary/30 transition-all duration-500 rounded-lg"></div>
               {/* Subtle glow effect */}
               <div className="absolute -inset-0.5 bg-gradient-to-r from-primary/0 via-primary/20 to-primary/0 opacity-0 group-hover:opacity-100 blur-xl transition-opacity duration-700 -z-10"></div>
             </Tilt>
 
-            <Tilt
-              tiltMaxAngleX={3}
-              tiltMaxAngleY={3}
-              perspective={1500}
-              transitionSpeed={1500}
-              scale={1.05}
-              className="group relative overflow-hidden rounded-lg aspect-[4/5] shadow-2xl"
-            >
-              <img
-                src={yogaBeach}
-                alt="Yoga practice on the beach at sunset - mindful movement"
-                className="w-full h-full object-cover transition-all duration-700 group-hover:brightness-110"
-              />
+            <Tilt tiltMaxAngleX={3} tiltMaxAngleY={3} perspective={1500} transitionSpeed={1500} scale={1.05} className="group relative overflow-hidden rounded-lg aspect-[4/5] shadow-2xl">
+              <img src={yogaBeach} alt="Yoga practice on the beach at sunset - mindful movement" className="w-full h-full object-cover transition-all duration-700 group-hover:brightness-110" />
               <div className="absolute inset-0 bg-gradient-to-t from-background/70 via-background/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 backdrop-blur-[1px]"></div>
               <div className="absolute inset-0 ring-1 ring-primary/0 group-hover:ring-primary/30 transition-all duration-500 rounded-lg"></div>
               {/* Subtle glow effect */}
