@@ -8,17 +8,17 @@ const Stories = () => {
       {/* My Stories */}
       <section className="container mx-auto px-6 py-20 md:py-32">
         <div className="max-w-4xl mx-auto space-y-16">
-          <h1 className="text-3xl md:text-4xl font-light text-center text-foreground">
+          <h1 className="text-4xl md:text-5xl font-medium text-center text-foreground">
             My Stories
           </h1>
 
           {/* Vipassana Story */}
-          <article className="space-y-6 p-8 md:p-12 rounded-2xl bg-gradient-to-br from-background via-primary/5 to-background border border-primary/10">
-            <h2 className="text-2xl md:text-3xl font-light text-foreground leading-relaxed">
+          <article className="space-y-6 p-8 md:p-12 rounded-2xl bg-gradient-to-br from-background via-primary/5 to-background border-2 border-primary/10">
+            <h2 className="text-2xl md:text-3xl font-medium text-foreground leading-relaxed">
               我为什么从科技转向疗愈：十天内观冥想让我真正体验到"色即是空"
             </h2>
 
-            <div className="space-y-6 text-muted-foreground font-light leading-relaxed">
+            <div className="space-y-6 text-foreground/80 font-light leading-relaxed">
               <p>
                 在硅谷的几年里，我一直被效率、成果、目标kpi 这些词包围。
               </p>
@@ -55,19 +55,19 @@ const Stories = () => {
                 说实话，头几天完全是纯粹的煎熬。
               </p>
 
-              <h3 className="text-xl font-light text-foreground pt-4">与身体的抗争（第1-3天）</h3>
+              <h3 className="text-xl font-medium text-foreground pt-4">与身体的抗争（第1-3天）</h3>
 
               <p>
                 凌晨四点的钟声如同残酷的玩笑。每天静坐十多小时，双腿痛到尖叫。思绪如混乱失控的暴民，每一小时都漫长如永恒。我一度确信自己做了个错误的决定。这是"混乱"阶段，唯一能观察到的就是自己的抗拒。
               </p>
 
-              <h3 className="text-xl font-light text-foreground pt-4">初现曙光（第4-5天）</h3>
+              <h3 className="text-xl font-medium text-foreground pt-4">初现曙光（第4-5天）</h3>
 
               <p>
                 然后，转机出现了。第四天，在累积的疲惫和轻微感冒中，某种突破发生了。腿上灼烧般的疼痛...竟然消散了。取而代之的是一种细微的、嗡鸣的能量流动。我能追踪 sensations 在体内的移动。记得有一次，我感觉到一个喷嚏酝酿形成，穿过胸腔向上移动，最终在鼻腔里完全消失了…这是我第一次真切尝到一个深刻奥秘：当你察觉到它，它就消失了。
               </p>
 
-              <h3 className="text-xl font-light text-foreground pt-4"><strong>伟大的消融（第5天）</strong></h3>
+              <h3 className="text-xl font-medium text-foreground pt-4"><strong>伟大的消融（第5天）</strong></h3>
 
               <p>
                 但真正的震撼来自第五天下午。这天下午我状态良好…入定很深大概1个半小时后，我固化的身体似乎...消失了。
@@ -85,7 +85,7 @@ const Stories = () => {
                 那句古老的佛语<strong>"色即是空，空即是色"</strong>，从一个智性概念变成了鲜活、深刻的亲身体验。这是我生命中最震撼、最令人敬畏也最谦卑的时刻。我的大脑疯狂寻找立足点，与之抗争，产生了类似"鬼压床"的感觉。但这次体验不容否认。当我后来向老师描述时，她只是微笑着说："恭喜，你走在正确的道路上。"
               </p>
 
-              <h3 className="text-xl font-light text-foreground pt-4">新的实相（第6-10天）</h3>
+              <h3 className="text-xl font-medium text-foreground pt-4">新的实相（第6-10天）</h3>
 
               <p>
                 retreat 余下的时间就在稳定这个新的认知中度过。感官变得异常敏锐；斋堂里的食物成了味觉的交响乐。我怀着极大的幸福感和谦卑感受每一口食物，每一种新的食物组合，我感到能量自由流转，持续、切实地提醒着我：那个原以为的"我"，其本质是无常且无实体的。
@@ -130,7 +130,7 @@ const Stories = () => {
                 </p>
               </div>
 
-              <h3 className="text-xl font-light text-foreground pt-4">最后想说：</h3>
+              <h3 className="text-xl font-medium text-foreground pt-4">最后想说：</h3>
 
               <p>
                 <strong>这10天的旅程反映出一个核心真相：身心皆无常，无实休，由振动的能量构成。</strong>

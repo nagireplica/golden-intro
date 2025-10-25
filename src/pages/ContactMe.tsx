@@ -10,11 +10,11 @@ const ContactMe = () => {
         <div className="max-w-2xl mx-auto space-y-16">
           <section className="space-y-8">
             <div className="text-center space-y-6">
-              <Heart className="w-12 h-12 text-primary mx-auto opacity-70" strokeWidth={1.5} />
-              <h1 className="text-4xl md:text-5xl font-light text-foreground">
+              <Heart className="w-12 h-12 text-accent mx-auto" strokeWidth={1.5} />
+              <h1 className="text-4xl md:text-5xl font-medium text-foreground">
                 Let's Connect
               </h1>
-              <p className="text-xl text-muted-foreground font-light leading-relaxed">
+              <p className="text-xl text-foreground/70 font-light leading-relaxed">
                 Whether you're interested in yoga sessions, wellness collaborations, or just want to connect, 
                 I'd love to hear from you.
               </p>
@@ -22,14 +22,14 @@ const ContactMe = () => {
           </section>
 
           <section className="space-y-6">
-            <div className="bg-card border border-border rounded-lg p-8 md:p-12 space-y-6">
+            <div className="bg-card border-2 border-border rounded-lg p-8 md:p-12 space-y-6 hover:border-accent/30 transition-all">
               <div className="flex items-center gap-4">
-                <Mail className="w-6 h-6 text-primary opacity-70" strokeWidth={1.5} />
+                <Mail className="w-6 h-6 text-accent" strokeWidth={1.5} />
                 <div>
-                  <h3 className="text-lg font-light text-foreground mb-1">Email</h3>
+                  <h3 className="text-lg font-medium text-foreground mb-1">Email</h3>
                   <a
                     href="mailto:dingyuhu01@gmail.com"
-                    className="text-muted-foreground hover:text-foreground transition-colors font-light"
+                    className="text-foreground/70 hover:text-accent transition-colors font-light"
                   >
                     dingyuhu01@gmail.com
                   </a>
@@ -37,19 +37,19 @@ const ContactMe = () => {
               </div>
             </div>
 
-            <div className="bg-card border border-border rounded-lg p-8 md:p-12 space-y-6">
+            <div className="bg-card border-2 border-border rounded-lg p-8 md:p-12 space-y-6 hover:border-accent/30 transition-all">
               <div className="flex items-center gap-4">
-                <Calendar className="w-6 h-6 text-primary opacity-70" strokeWidth={1.5} />
+                <Calendar className="w-6 h-6 text-accent" strokeWidth={1.5} />
                 <div className="flex-1">
-                  <h3 className="text-lg font-light text-foreground mb-2">Book a Time to Chat</h3>
-                  <p className="text-sm text-muted-foreground font-light mb-4">
+                  <h3 className="text-lg font-medium text-foreground mb-2">Book a Time to Chat</h3>
+                  <p className="text-sm text-foreground/70 font-light mb-4">
                     Schedule a call directly on my calendar
                   </p>
                   <a
                     href="https://calendly.com/dingyuhu/30min"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center gap-2 px-6 py-3 bg-primary/10 hover:bg-primary/20 text-primary rounded-lg transition-colors font-light"
+                    className="inline-flex items-center gap-2 px-6 py-3 bg-accent hover:bg-accent/90 text-accent-foreground rounded-lg transition-all font-medium shadow-md hover:shadow-lg"
                   >
                     <Calendar className="w-4 h-4" />
                     Schedule a Call
@@ -59,7 +59,7 @@ const ContactMe = () => {
             </div>
 
             <div className="text-center space-y-4 pt-8">
-              <p className="text-muted-foreground font-light leading-relaxed">
+              <p className="text-foreground/70 font-light leading-relaxed">
                 Looking forward to connecting with kindred spirits on this journey of wellness and growth.
               </p>
             </div>

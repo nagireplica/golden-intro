@@ -9,11 +9,11 @@ const AboutMe = () => {
         <div className="max-w-3xl mx-auto space-y-16">
           {/* About Me Section */}
           <section className="space-y-8">
-            <h1 className="text-4xl md:text-5xl font-light text-center text-foreground">
+            <h1 className="text-4xl md:text-5xl font-medium text-center text-foreground">
               🌸 About Me
             </h1>
             
-            <div className="space-y-6 text-muted-foreground font-light leading-relaxed">
+            <div className="space-y-6 text-foreground/80 font-light leading-relaxed">
               <p className="text-center">
                 Hi, I'm Dingyu — a yoga teacher and creative entrepreneur working at the intersection of science and spirituality. I blend ancient philosophical wisdom with modern psychological research to help people feel more connected, balanced, and alive.
               </p>
@@ -30,70 +30,70 @@ const AboutMe = () => {
 
           {/* Core Values Section */}
           <section className="space-y-8 bg-secondary/30 -mx-6 px-6 py-16 md:-mx-12 md:px-12">
-            <h2 className="text-3xl md:text-4xl font-light text-center text-foreground">
+            <h2 className="text-3xl md:text-4xl font-medium text-center text-foreground">
               ✨ Core Values
             </h2>
             
             <div className="grid gap-8">
               <div className="space-y-3">
-                <h3 className="text-lg font-light text-foreground flex items-center gap-2">
-                  <span className="text-primary">∞</span> Authenticity
+                <h3 className="text-lg font-medium text-foreground flex items-center gap-2">
+                  <span className="text-accent">∞</span> Authenticity
                 </h3>
-                <p className="text-muted-foreground font-light leading-relaxed pl-6">
+                <p className="text-foreground/70 font-light leading-relaxed pl-6">
                   Living and expressing from a place of truth.
                 </p>
               </div>
 
               <div className="space-y-3">
-                <h3 className="text-lg font-light text-foreground flex items-center gap-2">
-                  <span className="text-primary">∞</span> Presence
+                <h3 className="text-lg font-medium text-foreground flex items-center gap-2">
+                  <span className="text-accent">∞</span> Presence
                 </h3>
-                <p className="text-muted-foreground font-light leading-relaxed pl-6">
+                <p className="text-foreground/70 font-light leading-relaxed pl-6">
                   Meeting each moment with awareness and compassion.
                 </p>
               </div>
 
               <div className="space-y-3">
-                <h3 className="text-lg font-light text-foreground flex items-center gap-2">
-                  <span className="text-primary">∞</span> Connection
+                <h3 className="text-lg font-medium text-foreground flex items-center gap-2">
+                  <span className="text-accent">∞</span> Connection
                 </h3>
-                <p className="text-muted-foreground font-light leading-relaxed pl-6">
+                <p className="text-foreground/70 font-light leading-relaxed pl-6">
                   Nurturing genuine bonds between self, others, and the universe.
                 </p>
               </div>
 
               <div className="space-y-3">
-                <h3 className="text-lg font-light text-foreground flex items-center gap-2">
-                  <span className="text-primary">∞</span> Growth
+                <h3 className="text-lg font-medium text-foreground flex items-center gap-2">
+                  <span className="text-accent">∞</span> Growth
                 </h3>
-                <p className="text-muted-foreground font-light leading-relaxed pl-6">
+                <p className="text-foreground/70 font-light leading-relaxed pl-6">
                   Embracing life as a spiritual and creative unfolding.
                 </p>
               </div>
 
               <div className="space-y-3">
-                <h3 className="text-lg font-light text-foreground flex items-center gap-2">
-                  <span className="text-primary">∞</span> Simplicity
+                <h3 className="text-lg font-medium text-foreground flex items-center gap-2">
+                  <span className="text-accent">∞</span> Simplicity
                 </h3>
-                <p className="text-muted-foreground font-light leading-relaxed pl-6">
+                <p className="text-foreground/70 font-light leading-relaxed pl-6">
                   Finding beauty in stillness and balance in everyday life.
                 </p>
               </div>
 
               <div className="space-y-3">
-                <h3 className="text-lg font-light text-foreground flex items-center gap-2">
-                  <span className="text-primary">∞</span> Service
+                <h3 className="text-lg font-medium text-foreground flex items-center gap-2">
+                  <span className="text-accent">∞</span> Service
                 </h3>
-                <p className="text-muted-foreground font-light leading-relaxed pl-6">
+                <p className="text-foreground/70 font-light leading-relaxed pl-6">
                   Offering my work as a way to uplift and bring more light into the world.
                 </p>
               </div>
 
               <div className="space-y-3">
-                <h3 className="text-lg font-light text-foreground flex items-center gap-2">
-                  <span className="text-primary">∞</span> Surrender
+                <h3 className="text-lg font-medium text-foreground flex items-center gap-2">
+                  <span className="text-accent">∞</span> Surrender
                 </h3>
-                <p className="text-muted-foreground font-light leading-relaxed pl-6">
+                <p className="text-foreground/70 font-light leading-relaxed pl-6">
                   Surrender to flow, instead of control.
                 </p>
               </div>

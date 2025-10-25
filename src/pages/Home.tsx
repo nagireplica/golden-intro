@@ -41,9 +41,18 @@ const Home = () => {
                 Inner Compass
               </h1>
 
-              <p className="text-lg md:text-xl text-white/95 font-light leading-relaxed drop-shadow-lg backdrop-blur-sm bg-background/10 rounded-2xl p-8 transition-all duration-500 hover:bg-background/20 max-w-2xl">
+              <p className="text-lg md:text-xl text-white font-light leading-relaxed drop-shadow-lg backdrop-blur-sm bg-background/10 rounded-2xl p-8 transition-all duration-500 hover:bg-background/20 max-w-2xl mb-8">
                 I am building community and tools that empower people to connect more deeply with themselves and their higher self. Together, we create spaces for authentic growth and transformation.
               </p>
+
+              <div className="flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="/contact" className="inline-flex items-center justify-center px-8 py-4 bg-accent text-accent-foreground font-medium rounded-lg hover:bg-accent/90 transition-all duration-300 shadow-lg hover:shadow-xl">
+                  Schedule a Session
+                </a>
+                <a href="/about" className="inline-flex items-center justify-center px-8 py-4 bg-white/20 text-white font-medium rounded-lg hover:bg-white/30 backdrop-blur-sm transition-all duration-300 border border-white/30">
+                  Learn More
+                </a>
+              </div>
             </div>
           </div>
         </Tilt>
@@ -89,10 +98,15 @@ const Home = () => {
                 <Leaf className="w-10 h-10 text-primary opacity-70" strokeWidth={1.5} />
                 <h3 className="text-2xl md:text-3xl font-normal text-foreground">Outdoor Yoga & Meditation</h3>
               </div>
-              <p className="text-center text-muted-foreground text-lg font-light leading-relaxed max-w-2xl mx-auto">
+              <p className="text-center text-muted-foreground text-lg font-light leading-relaxed max-w-2xl mx-auto mb-6">
                 Nature holds its own healing energy.
                 Through outdoor yoga and meditation, I guide people to deepen the connection between mind and body — to breathe with awareness, feel grounded, and rediscover inner peace through presence.
               </p>
+              <div className="flex justify-center">
+                <a href="/contact" className="inline-flex items-center justify-center px-6 py-3 bg-accent text-accent-foreground font-medium rounded-lg hover:bg-accent/90 transition-all duration-300">
+                  Join a Session
+                </a>
+              </div>
             </article>
 
             <article className="space-y-6">
@@ -113,10 +127,15 @@ const Home = () => {
                 <Sparkles className="w-10 h-10 text-primary opacity-70" strokeWidth={1.5} />
                 <h3 className="text-2xl md:text-3xl font-normal text-foreground">Content & Community</h3>
               </div>
-              <p className="text-center text-muted-foreground text-lg font-light leading-relaxed max-w-2xl mx-auto">
+              <p className="text-center text-muted-foreground text-lg font-light leading-relaxed max-w-2xl mx-auto mb-6">
                 Through platforms like Rednote and YouTube, I share yoga philosophy, spiritual insights, and real stories from people exploring their own paths of growth.
                 My intention is to make ancient wisdom feel alive and relevant in our modern world — helping others reconnect with their inner compass and live with greater awareness and authenticity.
               </p>
+              <div className="flex justify-center gap-4">
+                <a href="/stories" className="inline-flex items-center justify-center px-6 py-3 bg-primary text-primary-foreground font-medium rounded-lg hover:bg-primary/90 transition-all duration-300">
+                  Read Stories
+                </a>
+              </div>
             </article>
           </div>
         </div>
