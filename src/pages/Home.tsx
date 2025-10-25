@@ -50,12 +50,34 @@ const Home = () => {
       </section>
 
       {/* Divider */}
-      <div className="container mx-auto px-6">
-        <div className="max-w-3xl mx-auto h-px bg-border opacity-50"></div>
+      <div className="container mx-auto px-6 py-16">
+        <div className="max-w-4xl mx-auto h-px bg-border opacity-20"></div>
+      </div>
+
+      {/* My Philosophy */}
+      <section className="container mx-auto px-6 py-20 md:py-32">
+        <div className="max-w-3xl mx-auto space-y-12">
+          <h2 className="text-4xl md:text-5xl font-normal text-center text-foreground mb-12 tracking-tight">
+            My Philosophy
+          </h2>
+
+          <div className="space-y-8 text-muted-foreground font-light leading-relaxed">
+            <p className="text-center text-2xl md:text-3xl font-normal text-foreground">
+              Everyone is a creator.
+            </p>
+
+            <p className="text-center text-lg leading-loose max-w-2xl mx-auto">When you tap into your intuition and align with yourself, something profound happens. You become grounded in who you truly are. From this place of authentic connection, you naturally create and provide value to the world. You act from abundance, not scarcity. You play an infinite game, not a finite game.</p>
+          </div>
+        </div>
+      </section>
+
+      {/* Divider */}
+      <div className="container mx-auto px-6 py-16">
+        <div className="max-w-4xl mx-auto h-px bg-border opacity-20"></div>
       </div>
 
       {/* Current Journey & Focus */}
-      <section className="container mx-auto px-6 py-24 md:py-40">
+      <section className="container mx-auto px-6 py-20 md:py-32">
         <div className="max-w-4xl mx-auto space-y-16">
           <h2 className="text-4xl md:text-5xl font-normal text-center text-foreground mb-16 tracking-tight">
             Current Journey & Focus
@@ -100,22 +122,10 @@ const Home = () => {
         </div>
       </section>
 
-      {/* My Philosophy */}
-      <section className="container mx-auto px-6 py-24 md:py-40">
-        <div className="max-w-3xl mx-auto space-y-12">
-          <h2 className="text-4xl md:text-5xl font-normal text-center text-foreground mb-12 tracking-tight">
-            My Philosophy
-          </h2>
-
-          <div className="space-y-8 text-muted-foreground font-light leading-relaxed">
-            <p className="text-center text-2xl md:text-3xl font-normal text-foreground">
-              Everyone is a creator.
-            </p>
-
-            <p className="text-center text-lg leading-loose max-w-2xl mx-auto">When you tap into your intuition and align with yourself, something profound happens. You become grounded in who you truly are. From this place of authentic connection, you naturally create and provide value to the world. You act from abundance, not scarcity. You play an infinite game, not a finite game.</p>
-          </div>
-        </div>
-      </section>
+      {/* Divider */}
+      <div className="container mx-auto px-6 py-16">
+        <div className="max-w-4xl mx-auto h-px bg-border opacity-20"></div>
+      </div>
 
       {/* Natural Healing Background Section */}
       <section className="relative w-full py-40 md:py-56 overflow-hidden">
@@ -137,7 +147,7 @@ const Home = () => {
       </section>
 
       {/* Natural Healing Gallery */}
-      <section className="container mx-auto px-6 py-24 md:py-40">
+      <section className="container mx-auto px-6 py-20 md:py-32">
         <div className="max-w-4xl mx-auto">
           <div className="grid md:grid-cols-2 gap-6">
             <Tilt
