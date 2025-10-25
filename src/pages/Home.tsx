@@ -88,15 +88,10 @@ const Home = () => {
                 <Leaf className="w-10 h-10 text-primary opacity-70" strokeWidth={1.5} />
                 <h3 className="text-2xl md:text-3xl font-normal text-foreground">Outdoor Yoga & Meditation</h3>
               </div>
-              <p className="text-center text-muted-foreground text-lg font-light leading-relaxed max-w-2xl mx-auto mb-6">
+              <p className="text-center text-muted-foreground text-lg font-light leading-relaxed max-w-2xl mx-auto">
                 Nature holds its own healing energy.
                 Through outdoor yoga and meditation, I guide people to deepen the connection between mind and body — to breathe with awareness, feel grounded, and rediscover inner peace through presence.
               </p>
-              <div className="flex justify-center">
-                <a href="/contact" className="inline-flex items-center justify-center px-6 py-3 bg-accent text-accent-foreground font-medium rounded-lg hover:bg-accent/90 transition-all duration-300">
-                  Join a Session
-                </a>
-              </div>
             </article>
 
             <article className="space-y-6">
