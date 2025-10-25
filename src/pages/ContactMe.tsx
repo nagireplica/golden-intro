@@ -46,7 +46,7 @@ const ContactMe = () => {
                     Schedule a call directly on my calendar
                   </p>
                   <a
-                    href="https://calendly.com/dingyuhu/30min"
+                    href="https://calendly.com/dingyuhu/20-mins-chat?month=2025-10"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 px-6 py-3 bg-accent hover:bg-accent/90 text-accent-foreground rounded-lg transition-all font-medium shadow-md hover:shadow-lg"
