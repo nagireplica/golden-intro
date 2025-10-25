@@ -11,7 +11,7 @@ const Home = () => {
       <Navigation />
       
       {/* Hero Section with Tilt and Parallax */}
-      <section className="relative w-full py-24 md:py-40 overflow-hidden">
+      <section className="relative w-full pb-24 md:pb-40 overflow-hidden">
         <Tilt tiltMaxAngleX={5} tiltMaxAngleY={5} perspective={1000} transitionSpeed={2000} scale={1.01} gyroscope={true} className="w-full h-full">
           <div className="absolute inset-0">
             {/* Single bamboo image */}
