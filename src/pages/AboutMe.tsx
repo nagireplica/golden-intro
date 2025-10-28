@@ -1,8 +1,6 @@
 import Navigation from "@/components/Navigation";
-
 const AboutMe = () => {
-  return (
-    <div className="min-h-screen bg-background text-foreground">
+  return <div className="min-h-screen bg-background text-foreground">
       <Navigation />
       
       <div className="container mx-auto px-6 py-20">
@@ -14,9 +12,7 @@ const AboutMe = () => {
             </h1>
             
             <div className="space-y-6 text-foreground/80 font-light leading-relaxed">
-              <p className="text-center">
-                Hi, I'm Dingyu — a yoga teacher and creative entrepreneur working at the intersection of science and spirituality. I blend ancient philosophical wisdom with modern psychological research to help people feel more connected, balanced, and alive.
-              </p>
+              <p className="text-center">Hi, I'm Dingyu — a creative entrepreneur and yoga teacher and working at the intersection of science and spirituality. I blend ancient philosophical wisdom with modern psychological research to help people feel more connected, balanced, and alive.</p>
 
               <p className="text-center">
                 I host yoga and mindfulness events, create content that inspires self-awareness, and collaborate with visionaries to bring healing innovations to the world — including ongoing work with a Stanford medical professor on stem cell and functional medicine projects.
@@ -110,8 +106,6 @@ const AboutMe = () => {
           </p>
         </div>
       </footer>
-    </div>
-  );
+    </div>;
 };
-
 export default AboutMe;
