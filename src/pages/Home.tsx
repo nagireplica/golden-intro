@@ -112,10 +112,7 @@ const Home = () => {
                 <Sparkles className="w-10 h-10 text-primary opacity-70" strokeWidth={1.5} />
                 <h3 className="text-2xl md:text-3xl font-normal text-foreground">Content & Community</h3>
               </div>
-              <p className="text-center text-muted-foreground text-lg font-light leading-relaxed max-w-2xl mx-auto mb-6">
-                Through platforms like Rednote and YouTube, I share yoga philosophy, spiritual insights, and real stories from people exploring their own paths of growth.
-                My intention is to make ancient wisdom feel alive and relevant in our modern world — helping others reconnect with their inner compass and live with greater awareness and authenticity.
-              </p>
+              <p className="text-center text-muted-foreground text-lg font-light leading-relaxed max-w-2xl mx-auto mb-6">Through platforms like Rednote and Substack, I will share yoga philosophy, The Sedona Method to release emotion, and real stories from people exploring their own paths of growth. My intention is to make ancient wisdom feel alive and relevant in our modern world — helping others reconnect with their inner compass and live with greater awareness and authenticity.</p>
               <div className="flex justify-center gap-4">
                 <a href="/stories" className="inline-flex items-center justify-center px-6 py-3 bg-primary text-primary-foreground font-medium rounded-lg hover:bg-primary/90 transition-all duration-300">
                   Read Stories
