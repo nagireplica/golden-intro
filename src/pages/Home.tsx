@@ -99,9 +99,7 @@ const Home = () => {
                 <Heart className="w-10 h-10 text-primary opacity-70" strokeWidth={1.5} />
                 <h3 className="text-2xl md:text-3xl font-normal text-foreground">Health & Wellness Product</h3>
               </div>
-              <p className="text-center text-muted-foreground text-lg font-light leading-relaxed max-w-2xl mx-auto">
-                Collaborating with a Stanford medical professor on ongoing stem cell and functional medicine projects. Together, we're creating digital products that bridge cutting-edge medical research with holistic wellness practices — designed to nurture well-being, support energy healing, and bring balance and harmony to everyday life.
-              </p>
+              <p className="text-center text-muted-foreground text-lg font-light leading-relaxed max-w-2xl mx-auto">Collaborating with a Stanford Medical professor on ongoing functional medicine projects. Together, we're creating products to bridge cutting-edge medical research with holistic wellness practices — designed to nurture well-being, support energy healing, and bring balance and harmony to everyday life.</p>
               <p className="text-center text-muted-foreground text-base font-light italic mt-3">
                 Stay tuned :)
               </p>
