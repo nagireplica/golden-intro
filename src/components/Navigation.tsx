@@ -10,7 +10,7 @@ const Navigation = () => {
     label: "About Me"
   }, {
     path: "/projects",
-    label: "Previous Projects"
+    label: "Yoga & Meditation Course"
   }, {
     path: "/stories",
     label: "Stories"
