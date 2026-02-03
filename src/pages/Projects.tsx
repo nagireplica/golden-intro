@@ -1,4 +1,6 @@
 import Navigation from "@/components/Navigation";
+import yogaSedonaPortrait from "@/assets/yoga-sedona-portrait.png";
+import sedonaRocks from "@/assets/sedona-rocks.png";
 
 const Projects = () => {
   return (
@@ -120,6 +122,24 @@ const Projects = () => {
               <a href="https://calendly.com/dingyuhu/20-mins-chat" target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center px-8 py-4 bg-primary text-primary-foreground font-medium rounded-lg hover:bg-primary/90 transition-all duration-300 shadow-lg hover:shadow-xl">
                 Reserve Your Spot
               </a>
+            </div>
+          </div>
+
+          {/* Yoga Journey Images */}
+          <div className="grid md:grid-cols-2 gap-6">
+            <div className="relative overflow-hidden rounded-2xl aspect-[3/4] shadow-xl">
+              <img 
+                src={yogaSedonaPortrait} 
+                alt="Yoga instructor in Sedona red rocks" 
+                className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
+              />
+            </div>
+            <div className="relative overflow-hidden rounded-2xl aspect-[3/4] shadow-xl">
+              <img 
+                src={sedonaRocks} 
+                alt="Sedona red rock formations" 
+                className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
+              />
             </div>
           </div>
 
