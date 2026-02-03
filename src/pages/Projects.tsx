@@ -1,8 +1,32 @@
+import { useState } from "react";
 import Navigation from "@/components/Navigation";
 import yogaSedonaPortrait from "@/assets/yoga-sedona-portrait.png";
 import sedonaRocks from "@/assets/sedona-rocks.png";
+import { Input } from "@/components/ui/input";
+import { Button } from "@/components/ui/button";
+import { useToast } from "@/hooks/use-toast";
 
 const Projects = () => {
+  const [email, setEmail] = useState("");
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const { toast } = useToast();
+
+  const handleSubscribe = async (e: React.FormEvent) => {
+    e.preventDefault();
+    if (!email.trim()) return;
+    
+    setIsSubmitting(true);
+    // Simulate subscription (replace with actual API call when backend is ready)
+    await new Promise(resolve => setTimeout(resolve, 1000));
+    
+    toast({
+      title: "Welcome to the journey!",
+      description: "You've successfully subscribed to our newsletter.",
+    });
+    
+    setEmail("");
+    setIsSubmitting(false);
+  };
   return (
     <div className="min-h-screen bg-background text-foreground">
       <Navigation />
@@ -147,6 +171,36 @@ const Projects = () => {
           <blockquote className="text-center text-xl md:text-2xl text-muted-foreground font-light italic max-w-2xl mx-auto">
             "Rest is not a reward for your work; it is the foundation of it."
           </blockquote>
+
+          {/* Newsletter Section */}
+          <div className="bg-primary/10 rounded-2xl p-8 md:p-12 space-y-6">
+            <div className="text-center space-y-3">
+              <h2 className="text-2xl md:text-3xl font-normal text-foreground">Stay Connected</h2>
+              <p className="text-muted-foreground font-light max-w-md mx-auto">
+                Subscribe to receive mindful insights, wellness tips, and updates on upcoming programs.
+              </p>
+            </div>
+            <form onSubmit={handleSubscribe} className="flex flex-col sm:flex-row gap-3 max-w-md mx-auto">
+              <Input
+                type="email"
+                placeholder="Enter your email"
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
+                required
+                className="flex-1 bg-background"
+              />
+              <Button 
+                type="submit" 
+                disabled={isSubmitting}
+                className="bg-primary text-primary-foreground hover:bg-primary/90"
+              >
+                {isSubmitting ? "Subscribing..." : "Subscribe"}
+              </Button>
+            </form>
+            <p className="text-xs text-muted-foreground text-center">
+              We respect your privacy. Unsubscribe at any time.
+            </p>
+          </div>
         </div>
       </section>
 
